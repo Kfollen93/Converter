@@ -12,8 +12,6 @@ namespace Converter.Forms
 {
     public partial class FormWeight : Form
     {
-
-
         public FormWeight()
         {
             InitializeComponent();
