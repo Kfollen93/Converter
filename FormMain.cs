@@ -128,7 +128,10 @@ namespace Converter
 
         private void buttonHome_Click(object sender, EventArgs e)
         {
-            currentChildForm.Close();
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
             ResetToMain();
         }
 
