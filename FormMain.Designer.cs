@@ -30,6 +30,7 @@ namespace Converter
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.volumeButton = new FontAwesome.Sharp.IconButton();
             this.distanceButton = new FontAwesome.Sharp.IconButton();
@@ -59,6 +60,7 @@ namespace Converter
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
+            this.panelMenu.Controls.Add(this.panel1);
             this.panelMenu.Controls.Add(this.iconButton6);
             this.panelMenu.Controls.Add(this.volumeButton);
             this.panelMenu.Controls.Add(this.distanceButton);
@@ -71,6 +73,14 @@ namespace Converter
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(173, 450);
             this.panelMenu.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(0, 74);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(173, 6);
+            this.panel1.TabIndex = 1;
             // 
             // iconButton6
             // 
@@ -97,6 +107,7 @@ namespace Converter
             // volumeButton
             // 
             this.volumeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
+            this.volumeButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.volumeButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.volumeButton.FlatAppearance.BorderSize = 0;
             this.volumeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -120,6 +131,7 @@ namespace Converter
             // distanceButton
             // 
             this.distanceButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
+            this.distanceButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.distanceButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.distanceButton.FlatAppearance.BorderSize = 0;
             this.distanceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -143,6 +155,7 @@ namespace Converter
             // speedButton
             // 
             this.speedButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
+            this.speedButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.speedButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.speedButton.FlatAppearance.BorderSize = 0;
             this.speedButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -166,6 +179,7 @@ namespace Converter
             // temperatureButton
             // 
             this.temperatureButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
+            this.temperatureButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.temperatureButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.temperatureButton.FlatAppearance.BorderSize = 0;
             this.temperatureButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -189,6 +203,7 @@ namespace Converter
             // weightButton
             // 
             this.weightButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
+            this.weightButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.weightButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.weightButton.FlatAppearance.BorderSize = 0;
             this.weightButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -236,6 +251,7 @@ namespace Converter
             // 
             // buttonHome
             // 
+            this.buttonHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonHome.Image = global::Converter.Properties.Resources.arrowlogo__1_;
             this.buttonHome.Location = new System.Drawing.Point(29, 3);
             this.buttonHome.Name = "buttonHome";
@@ -337,7 +353,7 @@ namespace Converter
             // 
             // panelShadow
             // 
-            this.panelShadow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
+            this.panelShadow.BackColor = System.Drawing.Color.Black;
             this.panelShadow.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelShadow.Location = new System.Drawing.Point(173, 74);
             this.panelShadow.Name = "panelShadow";
@@ -409,6 +425,7 @@ namespace Converter
         private FontAwesome.Sharp.IconButton buttonMinimize;
         private FontAwesome.Sharp.IconButton buttonMaximize;
         private FontAwesome.Sharp.IconButton buttonExit;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

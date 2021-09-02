@@ -46,6 +46,7 @@ namespace Converter.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(100)))), ((int)(((byte)(240)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.labelWeightForm);
             this.Name = "FormWeight";
