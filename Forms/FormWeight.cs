@@ -17,7 +17,6 @@ namespace Converter.Forms
         public FormWeight()
         {
             InitializeComponent();
-            textBoxKGtoPounds.Text = "Example: 5.5";
         }
 
         private void buttonSubmitKGtoPounds_Click(object sender, EventArgs e)
@@ -36,6 +35,23 @@ namespace Converter.Forms
                 labelOutputKGtoPounds.Text = String.Format("{0:0.00}", outputPounds);
             }
             
+        }
+
+        private void buttonSubmitPoundstoKG_Click(object sender, EventArgs e)
+        {
+            textBoxPoundstoKG.ForeColor = Color.Black;
+            double outputKilograms;
+
+            if (!double.TryParse(textBoxPoundstoKG.Text, out double inputPounds))
+            {
+                textBoxPoundstoKG.ForeColor = Color.Red;
+                textBoxPoundstoKG.Text = "Enter a valid number";
+            }
+            else
+            {
+                outputKilograms = inputPounds * 0.45;
+                labelOutputPoundstoKG.Text = String.Format("{0:0.00}", outputKilograms);
+            }
         }
     }
 }
