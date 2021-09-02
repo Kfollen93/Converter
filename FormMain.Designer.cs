@@ -48,6 +48,9 @@ namespace Converter
             this.currentChildFormIcon = new FontAwesome.Sharp.IconPictureBox();
             this.panelShadow = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.labelKilogramsToPounds = new System.Windows.Forms.Label();
+            this.labelPoundsToKilograms = new System.Windows.Forms.Label();
             this.labelMain = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panel1Title.SuspendLayout();
@@ -55,6 +58,7 @@ namespace Converter
             this.panelTitleBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.currentChildFormIcon)).BeginInit();
             this.panelDesktop.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -363,6 +367,7 @@ namespace Converter
             // panelDesktop
             // 
             this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(100)))), ((int)(((byte)(240)))));
+            this.panelDesktop.Controls.Add(this.tableLayoutPanel1);
             this.panelDesktop.Controls.Add(this.labelMain);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(173, 80);
@@ -370,15 +375,63 @@ namespace Converter
             this.panelDesktop.Size = new System.Drawing.Size(627, 370);
             this.panelDesktop.TabIndex = 3;
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Outset;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.labelKilogramsToPounds, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.labelPoundsToKilograms, 1, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(103, 47);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 10;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(399, 235);
+            this.tableLayoutPanel1.TabIndex = 1;
+            // 
+            // labelKilogramsToPounds
+            // 
+            this.labelKilogramsToPounds.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelKilogramsToPounds.AutoSize = true;
+            this.labelKilogramsToPounds.Location = new System.Drawing.Point(5, 7);
+            this.labelKilogramsToPounds.Name = "labelKilogramsToPounds";
+            this.labelKilogramsToPounds.Size = new System.Drawing.Size(130, 15);
+            this.labelKilogramsToPounds.TabIndex = 0;
+            this.labelKilogramsToPounds.Text = "1kg = 2.20 pounds (lbs)";
+            this.labelKilogramsToPounds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelPoundsToKilograms
+            // 
+            this.labelPoundsToKilograms.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelPoundsToKilograms.AutoSize = true;
+            this.labelPoundsToKilograms.Location = new System.Drawing.Point(203, 7);
+            this.labelPoundsToKilograms.Name = "labelPoundsToKilograms";
+            this.labelPoundsToKilograms.Size = new System.Drawing.Size(71, 15);
+            this.labelPoundsToKilograms.TabIndex = 1;
+            this.labelPoundsToKilograms.Text = "1lb = 0.45kg";
+            this.labelPoundsToKilograms.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // labelMain
             // 
             this.labelMain.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelMain.AutoSize = true;
-            this.labelMain.Location = new System.Drawing.Point(310, 67);
+            this.labelMain.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelMain.Location = new System.Drawing.Point(216, 12);
             this.labelMain.Name = "labelMain";
-            this.labelMain.Size = new System.Drawing.Size(106, 15);
+            this.labelMain.Size = new System.Drawing.Size(178, 32);
             this.labelMain.TabIndex = 0;
             this.labelMain.Text = "Quick Conversions";
+            this.labelMain.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // FormMain
             // 
@@ -399,7 +452,8 @@ namespace Converter
             this.panelTitleBar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.currentChildFormIcon)).EndInit();
             this.panelDesktop.ResumeLayout(false);
-            this.panelDesktop.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -426,6 +480,9 @@ namespace Converter
         private FontAwesome.Sharp.IconButton buttonMaximize;
         private FontAwesome.Sharp.IconButton buttonExit;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label labelKilogramsToPounds;
+        private System.Windows.Forms.Label labelPoundsToKilograms;
     }
 }
 

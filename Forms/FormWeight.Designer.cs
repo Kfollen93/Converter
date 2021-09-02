@@ -35,10 +35,10 @@ namespace Converter.Forms
             // labelWeightForm
             // 
             this.labelWeightForm.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelWeightForm.AutoSize = true;
-            this.labelWeightForm.Location = new System.Drawing.Point(310, 67);
+            this.labelWeightForm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelWeightForm.Location = new System.Drawing.Point(216, 12);
             this.labelWeightForm.Name = "labelWeightForm";
-            this.labelWeightForm.Size = new System.Drawing.Size(117, 15);
+            this.labelWeightForm.Size = new System.Drawing.Size(178, 32);
             this.labelWeightForm.TabIndex = 0;
             this.labelWeightForm.Text = "Kilograms to Pounds";
             // 
@@ -52,7 +52,6 @@ namespace Converter.Forms
             this.Name = "FormWeight";
             this.Text = "FormWeight";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
