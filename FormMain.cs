@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using FontAwesome.Sharp;
 using System.Runtime.InteropServices;
+using System.Reflection;
 
 namespace Converter
 {
@@ -28,8 +29,13 @@ namespace Converter
             // Form
             Text = string.Empty;
             ControlBox = false;
-            DoubleBuffered = true;
             MaximizedBounds = Screen.FromHandle(Handle).WorkingArea;
+
+            /* Instead of doing DoubleBuffered = true to stop form flickering, I am using
+               this fix from StackOverFlow which eliminates the flickering when switching forms */
+            typeof(Panel).InvokeMember("DoubleBuffered",
+            BindingFlags.SetProperty | BindingFlags.Instance | BindingFlags.NonPublic,
+            null, tableLayoutPanel1, new object[] { true });
         }
 
         private struct RGBColors
