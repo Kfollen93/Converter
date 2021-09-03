@@ -37,6 +37,8 @@ namespace Converter.Forms
             this.buttonSubmitKMHtoMPH = new System.Windows.Forms.Button();
             this.textBoxKMHtoMPH = new System.Windows.Forms.TextBox();
             this.labelKMHtoMPH = new System.Windows.Forms.Label();
+            this.labelNoteKMtoMi = new System.Windows.Forms.Label();
+            this.labelNoteMilesToKM = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelOutputMPHtoKMH
@@ -59,6 +61,7 @@ namespace Converter.Forms
             this.buttonSubmitMPHtoKMH.TabIndex = 22;
             this.buttonSubmitMPHtoKMH.Text = "Convert";
             this.buttonSubmitMPHtoKMH.UseVisualStyleBackColor = true;
+            this.buttonSubmitMPHtoKMH.Click += new System.EventHandler(this.buttonSubmitMPHtoKMH_Click);
             // 
             // textBoxMPHtoKMH
             // 
@@ -100,6 +103,7 @@ namespace Converter.Forms
             this.buttonSubmitKMHtoMPH.TabIndex = 18;
             this.buttonSubmitKMHtoMPH.Text = "Convert";
             this.buttonSubmitKMHtoMPH.UseVisualStyleBackColor = true;
+            this.buttonSubmitKMHtoMPH.Click += new System.EventHandler(this.buttonSubmitKMHtoMPH_Click);
             // 
             // textBoxKMHtoMPH
             // 
@@ -121,12 +125,32 @@ namespace Converter.Forms
             this.labelKMHtoMPH.TabIndex = 16;
             this.labelKMHtoMPH.Text = "KMH to MPH";
             // 
+            // labelNoteKMtoMi
+            // 
+            this.labelNoteKMtoMi.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelNoteKMtoMi.Location = new System.Drawing.Point(274, 73);
+            this.labelNoteKMtoMi.Name = "labelNoteKMtoMi";
+            this.labelNoteKMtoMi.Size = new System.Drawing.Size(297, 15);
+            this.labelNoteKMtoMi.TabIndex = 24;
+            this.labelNoteKMtoMi.Text = "*This can also be read as Kilometers to Miles (distance).";
+            // 
+            // labelNoteMilesToKM
+            // 
+            this.labelNoteMilesToKM.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelNoteMilesToKM.Location = new System.Drawing.Point(274, 218);
+            this.labelNoteMilesToKM.Name = "labelNoteMilesToKM";
+            this.labelNoteMilesToKM.Size = new System.Drawing.Size(297, 15);
+            this.labelNoteMilesToKM.TabIndex = 25;
+            this.labelNoteMilesToKM.Text = "*This can also be read as Miles to Kilometers (distance).";
+            // 
             // FormSpeed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(100)))), ((int)(((byte)(240)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelNoteMilesToKM);
+            this.Controls.Add(this.labelNoteKMtoMi);
             this.Controls.Add(this.labelOutputMPHtoKMH);
             this.Controls.Add(this.buttonSubmitMPHtoKMH);
             this.Controls.Add(this.textBoxMPHtoKMH);
@@ -152,5 +176,7 @@ namespace Converter.Forms
         private System.Windows.Forms.Button buttonSubmitKMHtoMPH;
         private System.Windows.Forms.TextBox textBoxKMHtoMPH;
         private System.Windows.Forms.Label labelKMHtoMPH;
+        private System.Windows.Forms.Label labelNoteKMtoMi;
+        private System.Windows.Forms.Label labelNoteMilesToKM;
     }
 }
