@@ -52,6 +52,8 @@ namespace Converter
             this.labelKilogramsToPounds = new System.Windows.Forms.Label();
             this.labelPoundsToKilograms = new System.Windows.Forms.Label();
             this.labelMain = new System.Windows.Forms.Label();
+            this.label0CtoF = new System.Windows.Forms.Label();
+            this.label100CtoF = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panel1Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
@@ -384,6 +386,8 @@ namespace Converter
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.labelKilogramsToPounds, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.labelPoundsToKilograms, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label0CtoF, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label100CtoF, 1, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(103, 47);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 10;
@@ -432,6 +436,27 @@ namespace Converter
             this.labelMain.TabIndex = 0;
             this.labelMain.Text = "Quick Conversions";
             this.labelMain.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label0CtoF
+            // 
+            this.label0CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label0CtoF.AutoSize = true;
+            this.label0CtoF.Location = new System.Drawing.Point(5, 35);
+            this.label0CtoF.Name = "label0CtoF";
+            this.label0CtoF.Size = new System.Drawing.Size(139, 15);
+            this.label0CtoF.TabIndex = 2;
+            this.label0CtoF.Text = "0 Celcius = 32 Fahrenheit";
+            this.label0CtoF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label100CtoF
+            // 
+            this.label100CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label100CtoF.AutoSize = true;
+            this.label100CtoF.Location = new System.Drawing.Point(203, 35);
+            this.label100CtoF.Name = "label100CtoF";
+            this.label100CtoF.Size = new System.Drawing.Size(157, 15);
+            this.label100CtoF.TabIndex = 3;
+            this.label100CtoF.Text = "100 Celcius = 212 Fahrenheit";
             // 
             // FormMain
             // 
@@ -483,6 +508,8 @@ namespace Converter
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label labelKilogramsToPounds;
         private System.Windows.Forms.Label labelPoundsToKilograms;
+        private System.Windows.Forms.Label label0CtoF;
+        private System.Windows.Forms.Label label100CtoF;
     }
 }
 
