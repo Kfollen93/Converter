@@ -30,9 +30,8 @@ namespace Converter.Forms
             else
             {
                 outputPounds = inputKilograms * 2.20;
-                labelOutputKGtoPounds.Text = string.Format("{0:0.00}", outputPounds);
+                labelOutputKGtoPounds.Text = string.Format("{0:0.00} lb(s)", outputPounds);
             }
-            
         }
 
         private void buttonSubmitPoundstoKG_Click(object sender, EventArgs e)
@@ -48,7 +47,7 @@ namespace Converter.Forms
             else
             {
                 outputKilograms = inputPounds * 0.45;
-                labelOutputPoundstoKG.Text = string.Format("{0:0.00}", outputKilograms);
+                labelOutputPoundstoKG.Text = string.Format("{0:0.00} kg", outputKilograms);
             }
         }
     }

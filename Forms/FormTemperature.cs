@@ -30,7 +30,7 @@ namespace Converter.Forms
             else
             {
                 outputFahrenheit = (inputCelcius * 9 / 5) + 32;
-                labelOutputCtoF.Text = string.Format("{0:0.00}" + "°F", outputFahrenheit);
+                labelOutputCtoF.Text = string.Format("{0:0.00} °F", outputFahrenheit);
             }
         }
 
@@ -47,7 +47,7 @@ namespace Converter.Forms
             else
             {
                 outputCelcius = (inputFahrenheit - 32) *5 / 9;
-                labelOutputFtoC.Text = string.Format("{0:0.00}" + "°C", outputCelcius);
+                labelOutputFtoC.Text = string.Format("{0:0.00} °C", outputCelcius);
             }
         }
     }
