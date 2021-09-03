@@ -53,6 +53,10 @@ namespace Converter
             this.labelPoundsToKilograms = new System.Windows.Forms.Label();
             this.label0CtoF = new System.Windows.Forms.Label();
             this.label100CtoF = new System.Windows.Forms.Label();
+            this.labelGramsToOunces = new System.Windows.Forms.Label();
+            this.labelOuncesToGrams = new System.Windows.Forms.Label();
+            this.labelKMHtoMPH = new System.Windows.Forms.Label();
+            this.labelMPHtoKMH = new System.Windows.Forms.Label();
             this.labelMain = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panel1Title.SuspendLayout();
@@ -386,8 +390,12 @@ namespace Converter
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.labelKilogramsToPounds, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.labelPoundsToKilograms, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label0CtoF, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label100CtoF, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.labelGramsToOunces, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.labelOuncesToGrams, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label0CtoF, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label100CtoF, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.labelKMHtoMPH, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelMPHtoKMH, 1, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(103, 47);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 10;
@@ -430,7 +438,7 @@ namespace Converter
             // 
             this.label0CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label0CtoF.AutoSize = true;
-            this.label0CtoF.Location = new System.Drawing.Point(5, 35);
+            this.label0CtoF.Location = new System.Drawing.Point(5, 60);
             this.label0CtoF.Name = "label0CtoF";
             this.label0CtoF.Size = new System.Drawing.Size(139, 15);
             this.label0CtoF.TabIndex = 2;
@@ -441,11 +449,55 @@ namespace Converter
             // 
             this.label100CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label100CtoF.AutoSize = true;
-            this.label100CtoF.Location = new System.Drawing.Point(203, 35);
+            this.label100CtoF.Location = new System.Drawing.Point(203, 60);
             this.label100CtoF.Name = "label100CtoF";
             this.label100CtoF.Size = new System.Drawing.Size(157, 15);
             this.label100CtoF.TabIndex = 3;
-            this.label100CtoF.Text = "100 Celcius = 212 Fahrenheit";
+            this.label100CtoF.Text = "212 Fahrenheit = 100 Celcius";
+            // 
+            // labelGramsToOunces
+            // 
+            this.labelGramsToOunces.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelGramsToOunces.AutoSize = true;
+            this.labelGramsToOunces.Location = new System.Drawing.Point(5, 35);
+            this.labelGramsToOunces.Name = "labelGramsToOunces";
+            this.labelGramsToOunces.Size = new System.Drawing.Size(94, 15);
+            this.labelGramsToOunces.TabIndex = 4;
+            this.labelGramsToOunces.Text = "1 gram = 0.03 oz";
+            this.labelGramsToOunces.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelOuncesToGrams
+            // 
+            this.labelOuncesToGrams.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelOuncesToGrams.AutoSize = true;
+            this.labelOuncesToGrams.Location = new System.Drawing.Point(203, 35);
+            this.labelOuncesToGrams.Name = "labelOuncesToGrams";
+            this.labelOuncesToGrams.Size = new System.Drawing.Size(100, 15);
+            this.labelOuncesToGrams.TabIndex = 5;
+            this.labelOuncesToGrams.Text = "1 ounce = 28.35 g";
+            this.labelOuncesToGrams.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelKMHtoMPH
+            // 
+            this.labelKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelKMHtoMPH.AutoSize = true;
+            this.labelKMHtoMPH.Location = new System.Drawing.Point(5, 82);
+            this.labelKMHtoMPH.Name = "labelKMHtoMPH";
+            this.labelKMHtoMPH.Size = new System.Drawing.Size(108, 15);
+            this.labelKMHtoMPH.TabIndex = 6;
+            this.labelKMHtoMPH.Text = "1 KMH = 0.62 MPH";
+            this.labelKMHtoMPH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelMPHtoKMH
+            // 
+            this.labelMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelMPHtoKMH.AutoSize = true;
+            this.labelMPHtoKMH.Location = new System.Drawing.Point(203, 82);
+            this.labelMPHtoKMH.Name = "labelMPHtoKMH";
+            this.labelMPHtoKMH.Size = new System.Drawing.Size(108, 15);
+            this.labelMPHtoKMH.TabIndex = 7;
+            this.labelMPHtoKMH.Text = "1 MPH = 1.60 KMH";
+            this.labelMPHtoKMH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelMain
             // 
@@ -510,6 +562,10 @@ namespace Converter
         private System.Windows.Forms.Label labelPoundsToKilograms;
         private System.Windows.Forms.Label label0CtoF;
         private System.Windows.Forms.Label label100CtoF;
+        private System.Windows.Forms.Label labelGramsToOunces;
+        private System.Windows.Forms.Label labelOuncesToGrams;
+        private System.Windows.Forms.Label labelKMHtoMPH;
+        private System.Windows.Forms.Label labelMPHtoKMH;
     }
 }
 
