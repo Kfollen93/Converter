@@ -120,6 +120,7 @@ namespace Converter
         private void speedButton_Click(object sender, EventArgs e)
         {
             ActivateButtonColorChange(sender, RGBColors.color3);
+            OpenChildForm(new Forms.FormSpeed());
         }
 
         private void distanceButton_Click(object sender, EventArgs e)
