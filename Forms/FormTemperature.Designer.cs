@@ -59,6 +59,7 @@ namespace Converter.Forms
             this.buttonSubmitFtoC.TabIndex = 14;
             this.buttonSubmitFtoC.Text = "Convert";
             this.buttonSubmitFtoC.UseVisualStyleBackColor = true;
+            this.buttonSubmitFtoC.Click += new System.EventHandler(this.buttonSubmitFtoC_Click);
             // 
             // textBoxFtoC
             // 
@@ -100,6 +101,7 @@ namespace Converter.Forms
             this.buttonSubmitCtoF.TabIndex = 10;
             this.buttonSubmitCtoF.Text = "Convert";
             this.buttonSubmitCtoF.UseVisualStyleBackColor = true;
+            this.buttonSubmitCtoF.Click += new System.EventHandler(this.buttonSubmitCtoF_Click);
             // 
             // textBoxCtoF
             // 
