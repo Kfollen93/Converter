@@ -29,7 +29,7 @@ namespace Converter.Forms
             }
             else
             {
-                outputPounds = inputKilograms * 2.20;
+                outputPounds = inputKilograms * 2.20462;
                 labelOutputKGtoPounds.Text = string.Format("{0:0.00} lb(s)", outputPounds);
             }
         }
@@ -46,8 +46,42 @@ namespace Converter.Forms
             }
             else
             {
-                outputKilograms = inputPounds * 0.45;
+                outputKilograms = inputPounds * 0.453592;
                 labelOutputPoundstoKG.Text = string.Format("{0:0.00} kg", outputKilograms);
+            }
+        }
+
+        private void buttonSubmitGramsToOunces_Click(object sender, EventArgs e)
+        {
+            textBoxGramsToOunces.ForeColor = Color.Black;
+            double outputOunces;
+
+            if (!double.TryParse(textBoxGramsToOunces.Text, out double inputGrams))
+            {
+                textBoxGramsToOunces.ForeColor = Color.Red;
+                textBoxGramsToOunces.Text = "Enter a valid number";
+            }
+            else
+            {
+                outputOunces = inputGrams * 0.035274;
+                labelOutputGramsToOunces.Text = string.Format("{0:0.00} oz", outputOunces);
+            }
+        }
+
+        private void buttonSubmitOuncesToGrams_Click(object sender, EventArgs e)
+        {
+            textBoxOuncesToGrams.ForeColor = Color.Black;
+            double outputGrams;
+
+            if (!double.TryParse(textBoxOuncesToGrams.Text, out double inputOunces))
+            {
+                textBoxOuncesToGrams.ForeColor = Color.Red;
+                textBoxOuncesToGrams.Text = "Enter a valid number";
+            }
+            else
+            {
+                outputGrams = inputOunces * 28.3495;
+                labelOutputOuncesToGrams.Text = string.Format("{0:0.00} g", outputGrams);
             }
         }
     }

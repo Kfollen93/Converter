@@ -37,13 +37,21 @@ namespace Converter.Forms
             this.textBoxPoundstoKG = new System.Windows.Forms.TextBox();
             this.buttonSubmitPoundstoKG = new System.Windows.Forms.Button();
             this.labelOutputPoundstoKG = new System.Windows.Forms.Label();
+            this.labelOutputOuncesToGrams = new System.Windows.Forms.Label();
+            this.buttonSubmitOuncesToGrams = new System.Windows.Forms.Button();
+            this.textBoxOuncesToGrams = new System.Windows.Forms.TextBox();
+            this.labelOuncesToGrams = new System.Windows.Forms.Label();
+            this.labelOutputGramsToOunces = new System.Windows.Forms.Label();
+            this.buttonSubmitGramsToOunces = new System.Windows.Forms.Button();
+            this.textBoxGramsToOunces = new System.Windows.Forms.TextBox();
+            this.labelGramsToOunces = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelKGtoPounds
             // 
             this.labelKGtoPounds.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelKGtoPounds.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelKGtoPounds.Location = new System.Drawing.Point(229, 41);
+            this.labelKGtoPounds.Location = new System.Drawing.Point(229, 29);
             this.labelKGtoPounds.Name = "labelKGtoPounds";
             this.labelKGtoPounds.Size = new System.Drawing.Size(178, 32);
             this.labelKGtoPounds.TabIndex = 0;
@@ -52,7 +60,7 @@ namespace Converter.Forms
             // textBoxKGtoPounds
             // 
             this.textBoxKGtoPounds.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxKGtoPounds.Location = new System.Drawing.Point(127, 106);
+            this.textBoxKGtoPounds.Location = new System.Drawing.Point(127, 74);
             this.textBoxKGtoPounds.MaxLength = 6;
             this.textBoxKGtoPounds.Name = "textBoxKGtoPounds";
             this.textBoxKGtoPounds.PlaceholderText = "Example: 5.5";
@@ -62,7 +70,7 @@ namespace Converter.Forms
             // buttonSubmitKGtoPounds
             // 
             this.buttonSubmitKGtoPounds.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitKGtoPounds.Location = new System.Drawing.Point(332, 105);
+            this.buttonSubmitKGtoPounds.Location = new System.Drawing.Point(332, 73);
             this.buttonSubmitKGtoPounds.Name = "buttonSubmitKGtoPounds";
             this.buttonSubmitKGtoPounds.Size = new System.Drawing.Size(75, 23);
             this.buttonSubmitKGtoPounds.TabIndex = 2;
@@ -75,7 +83,7 @@ namespace Converter.Forms
             this.labelOutputKGtoPounds.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputKGtoPounds.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputKGtoPounds.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputKGtoPounds.Location = new System.Drawing.Point(466, 106);
+            this.labelOutputKGtoPounds.Location = new System.Drawing.Point(466, 74);
             this.labelOutputKGtoPounds.Name = "labelOutputKGtoPounds";
             this.labelOutputKGtoPounds.Size = new System.Drawing.Size(125, 23);
             this.labelOutputKGtoPounds.TabIndex = 3;
@@ -85,7 +93,7 @@ namespace Converter.Forms
             // 
             this.labelPoundsToKG.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelPoundsToKG.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelPoundsToKG.Location = new System.Drawing.Point(229, 186);
+            this.labelPoundsToKG.Location = new System.Drawing.Point(229, 115);
             this.labelPoundsToKG.Name = "labelPoundsToKG";
             this.labelPoundsToKG.Size = new System.Drawing.Size(178, 32);
             this.labelPoundsToKG.TabIndex = 4;
@@ -94,7 +102,7 @@ namespace Converter.Forms
             // textBoxPoundstoKG
             // 
             this.textBoxPoundstoKG.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxPoundstoKG.Location = new System.Drawing.Point(127, 278);
+            this.textBoxPoundstoKG.Location = new System.Drawing.Point(127, 164);
             this.textBoxPoundstoKG.MaxLength = 6;
             this.textBoxPoundstoKG.Name = "textBoxPoundstoKG";
             this.textBoxPoundstoKG.PlaceholderText = "Example: 3.9";
@@ -104,7 +112,7 @@ namespace Converter.Forms
             // buttonSubmitPoundstoKG
             // 
             this.buttonSubmitPoundstoKG.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitPoundstoKG.Location = new System.Drawing.Point(332, 277);
+            this.buttonSubmitPoundstoKG.Location = new System.Drawing.Point(332, 163);
             this.buttonSubmitPoundstoKG.Name = "buttonSubmitPoundstoKG";
             this.buttonSubmitPoundstoKG.Size = new System.Drawing.Size(75, 23);
             this.buttonSubmitPoundstoKG.TabIndex = 6;
@@ -117,11 +125,95 @@ namespace Converter.Forms
             this.labelOutputPoundstoKG.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputPoundstoKG.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputPoundstoKG.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputPoundstoKG.Location = new System.Drawing.Point(466, 278);
+            this.labelOutputPoundstoKG.Location = new System.Drawing.Point(466, 164);
             this.labelOutputPoundstoKG.Name = "labelOutputPoundstoKG";
             this.labelOutputPoundstoKG.Size = new System.Drawing.Size(125, 23);
             this.labelOutputPoundstoKG.TabIndex = 7;
             this.labelOutputPoundstoKG.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelOutputOuncesToGrams
+            // 
+            this.labelOutputOuncesToGrams.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelOutputOuncesToGrams.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.labelOutputOuncesToGrams.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelOutputOuncesToGrams.Location = new System.Drawing.Point(466, 338);
+            this.labelOutputOuncesToGrams.Name = "labelOutputOuncesToGrams";
+            this.labelOutputOuncesToGrams.Size = new System.Drawing.Size(125, 23);
+            this.labelOutputOuncesToGrams.TabIndex = 15;
+            this.labelOutputOuncesToGrams.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // buttonSubmitOuncesToGrams
+            // 
+            this.buttonSubmitOuncesToGrams.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.buttonSubmitOuncesToGrams.Location = new System.Drawing.Point(332, 337);
+            this.buttonSubmitOuncesToGrams.Name = "buttonSubmitOuncesToGrams";
+            this.buttonSubmitOuncesToGrams.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitOuncesToGrams.TabIndex = 14;
+            this.buttonSubmitOuncesToGrams.Text = "Convert";
+            this.buttonSubmitOuncesToGrams.UseVisualStyleBackColor = true;
+            this.buttonSubmitOuncesToGrams.Click += new System.EventHandler(this.buttonSubmitOuncesToGrams_Click);
+            // 
+            // textBoxOuncesToGrams
+            // 
+            this.textBoxOuncesToGrams.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBoxOuncesToGrams.Location = new System.Drawing.Point(127, 338);
+            this.textBoxOuncesToGrams.MaxLength = 6;
+            this.textBoxOuncesToGrams.Name = "textBoxOuncesToGrams";
+            this.textBoxOuncesToGrams.PlaceholderText = "Example: 1";
+            this.textBoxOuncesToGrams.Size = new System.Drawing.Size(125, 23);
+            this.textBoxOuncesToGrams.TabIndex = 13;
+            // 
+            // labelOuncesToGrams
+            // 
+            this.labelOuncesToGrams.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelOuncesToGrams.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelOuncesToGrams.Location = new System.Drawing.Point(229, 289);
+            this.labelOuncesToGrams.Name = "labelOuncesToGrams";
+            this.labelOuncesToGrams.Size = new System.Drawing.Size(178, 32);
+            this.labelOuncesToGrams.TabIndex = 12;
+            this.labelOuncesToGrams.Text = "Ounces To Grams";
+            // 
+            // labelOutputGramsToOunces
+            // 
+            this.labelOutputGramsToOunces.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelOutputGramsToOunces.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.labelOutputGramsToOunces.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelOutputGramsToOunces.Location = new System.Drawing.Point(466, 248);
+            this.labelOutputGramsToOunces.Name = "labelOutputGramsToOunces";
+            this.labelOutputGramsToOunces.Size = new System.Drawing.Size(125, 23);
+            this.labelOutputGramsToOunces.TabIndex = 11;
+            this.labelOutputGramsToOunces.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // buttonSubmitGramsToOunces
+            // 
+            this.buttonSubmitGramsToOunces.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.buttonSubmitGramsToOunces.Location = new System.Drawing.Point(332, 247);
+            this.buttonSubmitGramsToOunces.Name = "buttonSubmitGramsToOunces";
+            this.buttonSubmitGramsToOunces.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitGramsToOunces.TabIndex = 10;
+            this.buttonSubmitGramsToOunces.Text = "Convert";
+            this.buttonSubmitGramsToOunces.UseVisualStyleBackColor = true;
+            this.buttonSubmitGramsToOunces.Click += new System.EventHandler(this.buttonSubmitGramsToOunces_Click);
+            // 
+            // textBoxGramsToOunces
+            // 
+            this.textBoxGramsToOunces.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBoxGramsToOunces.Location = new System.Drawing.Point(127, 248);
+            this.textBoxGramsToOunces.MaxLength = 6;
+            this.textBoxGramsToOunces.Name = "textBoxGramsToOunces";
+            this.textBoxGramsToOunces.PlaceholderText = "Example: 28";
+            this.textBoxGramsToOunces.Size = new System.Drawing.Size(125, 23);
+            this.textBoxGramsToOunces.TabIndex = 9;
+            // 
+            // labelGramsToOunces
+            // 
+            this.labelGramsToOunces.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelGramsToOunces.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelGramsToOunces.Location = new System.Drawing.Point(229, 203);
+            this.labelGramsToOunces.Name = "labelGramsToOunces";
+            this.labelGramsToOunces.Size = new System.Drawing.Size(178, 32);
+            this.labelGramsToOunces.TabIndex = 8;
+            this.labelGramsToOunces.Text = "Grams to Ounces";
             // 
             // FormWeight
             // 
@@ -129,6 +221,14 @@ namespace Converter.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(100)))), ((int)(((byte)(240)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelOutputOuncesToGrams);
+            this.Controls.Add(this.buttonSubmitOuncesToGrams);
+            this.Controls.Add(this.textBoxOuncesToGrams);
+            this.Controls.Add(this.labelOuncesToGrams);
+            this.Controls.Add(this.labelOutputGramsToOunces);
+            this.Controls.Add(this.buttonSubmitGramsToOunces);
+            this.Controls.Add(this.textBoxGramsToOunces);
+            this.Controls.Add(this.labelGramsToOunces);
             this.Controls.Add(this.labelOutputPoundstoKG);
             this.Controls.Add(this.buttonSubmitPoundstoKG);
             this.Controls.Add(this.textBoxPoundstoKG);
@@ -154,5 +254,13 @@ namespace Converter.Forms
         private System.Windows.Forms.TextBox textBoxPoundstoKG;
         private System.Windows.Forms.Button buttonSubmitPoundstoKG;
         private System.Windows.Forms.Label labelOutputPoundstoKG;
+        private System.Windows.Forms.Label labelOutputOuncesToGrams;
+        private System.Windows.Forms.Button buttonSubmitOuncesToGrams;
+        private System.Windows.Forms.TextBox textBoxOuncesToGrams;
+        private System.Windows.Forms.Label labelOuncesToGrams;
+        private System.Windows.Forms.Label labelOutputGramsToOunces;
+        private System.Windows.Forms.Button buttonSubmitGramsToOunces;
+        private System.Windows.Forms.TextBox textBoxGramsToOunces;
+        private System.Windows.Forms.Label labelGramsToOunces;
     }
 }
