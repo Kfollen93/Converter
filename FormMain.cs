@@ -26,10 +26,10 @@ namespace Converter
             panelMenu.Controls.Add(leftBorderButton);
 
             // Form
-            this.Text = string.Empty;
-            this.ControlBox = false;
-            this.DoubleBuffered = true;
-            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+            Text = string.Empty;
+            ControlBox = false;
+            DoubleBuffered = true;
+            MaximizedBounds = Screen.FromHandle(Handle).WorkingArea;
         }
 
         private struct RGBColors
@@ -148,7 +148,7 @@ namespace Converter
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
-        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        private extern static void SendMessage(IntPtr hWnd, int wMsg, int wParam, int lParam);
 
         private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
         {
