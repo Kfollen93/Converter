@@ -51,10 +51,10 @@ namespace Converter
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.labelKilogramsToPounds = new System.Windows.Forms.Label();
             this.labelPoundsToKilograms = new System.Windows.Forms.Label();
-            this.label0CtoF = new System.Windows.Forms.Label();
-            this.label100CtoF = new System.Windows.Forms.Label();
             this.labelGramsToOunces = new System.Windows.Forms.Label();
             this.labelOuncesToGrams = new System.Windows.Forms.Label();
+            this.label0CtoF = new System.Windows.Forms.Label();
+            this.label100CtoF = new System.Windows.Forms.Label();
             this.labelKMHtoMPH = new System.Windows.Forms.Label();
             this.labelMPHtoKMH = new System.Windows.Forms.Label();
             this.labelMain = new System.Windows.Forms.Label();
@@ -434,27 +434,6 @@ namespace Converter
             this.labelPoundsToKilograms.Text = "1lb = 0.45kg";
             this.labelPoundsToKilograms.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label0CtoF
-            // 
-            this.label0CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label0CtoF.AutoSize = true;
-            this.label0CtoF.Location = new System.Drawing.Point(5, 60);
-            this.label0CtoF.Name = "label0CtoF";
-            this.label0CtoF.Size = new System.Drawing.Size(139, 15);
-            this.label0CtoF.TabIndex = 2;
-            this.label0CtoF.Text = "0 Celcius = 32 Fahrenheit";
-            this.label0CtoF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label100CtoF
-            // 
-            this.label100CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label100CtoF.AutoSize = true;
-            this.label100CtoF.Location = new System.Drawing.Point(203, 60);
-            this.label100CtoF.Name = "label100CtoF";
-            this.label100CtoF.Size = new System.Drawing.Size(157, 15);
-            this.label100CtoF.TabIndex = 3;
-            this.label100CtoF.Text = "212 Fahrenheit = 100 Celcius";
-            // 
             // labelGramsToOunces
             // 
             this.labelGramsToOunces.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -476,6 +455,27 @@ namespace Converter
             this.labelOuncesToGrams.TabIndex = 5;
             this.labelOuncesToGrams.Text = "1 ounce = 28.35 g";
             this.labelOuncesToGrams.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label0CtoF
+            // 
+            this.label0CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label0CtoF.AutoSize = true;
+            this.label0CtoF.Location = new System.Drawing.Point(5, 60);
+            this.label0CtoF.Name = "label0CtoF";
+            this.label0CtoF.Size = new System.Drawing.Size(139, 15);
+            this.label0CtoF.TabIndex = 2;
+            this.label0CtoF.Text = "0 Celcius = 32 Fahrenheit";
+            this.label0CtoF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label100CtoF
+            // 
+            this.label100CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label100CtoF.AutoSize = true;
+            this.label100CtoF.Location = new System.Drawing.Point(203, 60);
+            this.label100CtoF.Name = "label100CtoF";
+            this.label100CtoF.Size = new System.Drawing.Size(157, 15);
+            this.label100CtoF.TabIndex = 3;
+            this.label100CtoF.Text = "212 Fahrenheit = 100 Celcius";
             // 
             // labelKMHtoMPH
             // 

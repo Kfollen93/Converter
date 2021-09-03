@@ -44,7 +44,7 @@ namespace Converter.Forms
             this.labelOutputMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputMPHtoKMH.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputMPHtoKMH.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputMPHtoKMH.Location = new System.Drawing.Point(507, 332);
+            this.labelOutputMPHtoKMH.Location = new System.Drawing.Point(466, 276);
             this.labelOutputMPHtoKMH.Name = "labelOutputMPHtoKMH";
             this.labelOutputMPHtoKMH.Size = new System.Drawing.Size(125, 23);
             this.labelOutputMPHtoKMH.TabIndex = 23;
@@ -53,7 +53,7 @@ namespace Converter.Forms
             // buttonSubmitMPHtoKMH
             // 
             this.buttonSubmitMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitMPHtoKMH.Location = new System.Drawing.Point(373, 331);
+            this.buttonSubmitMPHtoKMH.Location = new System.Drawing.Point(332, 277);
             this.buttonSubmitMPHtoKMH.Name = "buttonSubmitMPHtoKMH";
             this.buttonSubmitMPHtoKMH.Size = new System.Drawing.Size(75, 23);
             this.buttonSubmitMPHtoKMH.TabIndex = 22;
@@ -63,7 +63,7 @@ namespace Converter.Forms
             // textBoxMPHtoKMH
             // 
             this.textBoxMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxMPHtoKMH.Location = new System.Drawing.Point(168, 332);
+            this.textBoxMPHtoKMH.Location = new System.Drawing.Point(127, 278);
             this.textBoxMPHtoKMH.MaxLength = 6;
             this.textBoxMPHtoKMH.Name = "textBoxMPHtoKMH";
             this.textBoxMPHtoKMH.PlaceholderText = "Example: 95.5";
@@ -74,7 +74,7 @@ namespace Converter.Forms
             // 
             this.labelMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelMPHtoKMH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMPHtoKMH.Location = new System.Drawing.Point(270, 240);
+            this.labelMPHtoKMH.Location = new System.Drawing.Point(229, 186);
             this.labelMPHtoKMH.Name = "labelMPHtoKMH";
             this.labelMPHtoKMH.Size = new System.Drawing.Size(178, 32);
             this.labelMPHtoKMH.TabIndex = 20;
@@ -85,7 +85,7 @@ namespace Converter.Forms
             this.labelOutputKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputKMHtoMPH.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputKMHtoMPH.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputKMHtoMPH.Location = new System.Drawing.Point(507, 160);
+            this.labelOutputKMHtoMPH.Location = new System.Drawing.Point(466, 106);
             this.labelOutputKMHtoMPH.Name = "labelOutputKMHtoMPH";
             this.labelOutputKMHtoMPH.Size = new System.Drawing.Size(125, 23);
             this.labelOutputKMHtoMPH.TabIndex = 19;
@@ -94,7 +94,7 @@ namespace Converter.Forms
             // buttonSubmitKMHtoMPH
             // 
             this.buttonSubmitKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitKMHtoMPH.Location = new System.Drawing.Point(373, 159);
+            this.buttonSubmitKMHtoMPH.Location = new System.Drawing.Point(332, 105);
             this.buttonSubmitKMHtoMPH.Name = "buttonSubmitKMHtoMPH";
             this.buttonSubmitKMHtoMPH.Size = new System.Drawing.Size(75, 23);
             this.buttonSubmitKMHtoMPH.TabIndex = 18;
@@ -104,7 +104,7 @@ namespace Converter.Forms
             // textBoxKMHtoMPH
             // 
             this.textBoxKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxKMHtoMPH.Location = new System.Drawing.Point(168, 160);
+            this.textBoxKMHtoMPH.Location = new System.Drawing.Point(127, 106);
             this.textBoxKMHtoMPH.MaxLength = 6;
             this.textBoxKMHtoMPH.Name = "textBoxKMHtoMPH";
             this.textBoxKMHtoMPH.PlaceholderText = "Example: 60";
@@ -115,7 +115,7 @@ namespace Converter.Forms
             // 
             this.labelKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelKMHtoMPH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelKMHtoMPH.Location = new System.Drawing.Point(270, 95);
+            this.labelKMHtoMPH.Location = new System.Drawing.Point(229, 41);
             this.labelKMHtoMPH.Name = "labelKMHtoMPH";
             this.labelKMHtoMPH.Size = new System.Drawing.Size(178, 32);
             this.labelKMHtoMPH.TabIndex = 16;
