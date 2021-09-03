@@ -58,6 +58,14 @@ namespace Converter
             this.labelKMHtoMPH = new System.Windows.Forms.Label();
             this.labelMPHtoKMH = new System.Windows.Forms.Label();
             this.labelMain = new System.Windows.Forms.Label();
+            this.labelCMtoIN = new System.Windows.Forms.Label();
+            this.labelINtoCM = new System.Windows.Forms.Label();
+            this.labelMetersToFeet = new System.Windows.Forms.Label();
+            this.labelFeetToMeters = new System.Windows.Forms.Label();
+            this.labelFluidOunceToML = new System.Windows.Forms.Label();
+            this.labelMLtoFluidOunce = new System.Windows.Forms.Label();
+            this.labelLitersToGallons = new System.Windows.Forms.Label();
+            this.labelGallonsToLiters = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panel1Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
@@ -396,11 +404,17 @@ namespace Converter
             this.tableLayoutPanel1.Controls.Add(this.label100CtoF, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.labelKMHtoMPH, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.labelMPHtoKMH, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelCMtoIN, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.labelINtoCM, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.labelMetersToFeet, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.labelFeetToMeters, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.labelFluidOunceToML, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.labelMLtoFluidOunce, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.labelLitersToGallons, 0, 7);
+            this.tableLayoutPanel1.Controls.Add(this.labelGallonsToLiters, 1, 7);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(103, 47);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 10;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowCount = 8;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -409,14 +423,14 @@ namespace Converter
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(399, 235);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(399, 180);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // labelKilogramsToPounds
             // 
             this.labelKilogramsToPounds.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelKilogramsToPounds.AutoSize = true;
-            this.labelKilogramsToPounds.Location = new System.Drawing.Point(5, 7);
+            this.labelKilogramsToPounds.Location = new System.Drawing.Point(5, 4);
             this.labelKilogramsToPounds.Name = "labelKilogramsToPounds";
             this.labelKilogramsToPounds.Size = new System.Drawing.Size(130, 15);
             this.labelKilogramsToPounds.TabIndex = 0;
@@ -427,7 +441,7 @@ namespace Converter
             // 
             this.labelPoundsToKilograms.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelPoundsToKilograms.AutoSize = true;
-            this.labelPoundsToKilograms.Location = new System.Drawing.Point(203, 7);
+            this.labelPoundsToKilograms.Location = new System.Drawing.Point(203, 4);
             this.labelPoundsToKilograms.Name = "labelPoundsToKilograms";
             this.labelPoundsToKilograms.Size = new System.Drawing.Size(71, 15);
             this.labelPoundsToKilograms.TabIndex = 1;
@@ -438,7 +452,7 @@ namespace Converter
             // 
             this.labelGramsToOunces.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelGramsToOunces.AutoSize = true;
-            this.labelGramsToOunces.Location = new System.Drawing.Point(5, 35);
+            this.labelGramsToOunces.Location = new System.Drawing.Point(5, 26);
             this.labelGramsToOunces.Name = "labelGramsToOunces";
             this.labelGramsToOunces.Size = new System.Drawing.Size(94, 15);
             this.labelGramsToOunces.TabIndex = 4;
@@ -449,7 +463,7 @@ namespace Converter
             // 
             this.labelOuncesToGrams.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelOuncesToGrams.AutoSize = true;
-            this.labelOuncesToGrams.Location = new System.Drawing.Point(203, 35);
+            this.labelOuncesToGrams.Location = new System.Drawing.Point(203, 26);
             this.labelOuncesToGrams.Name = "labelOuncesToGrams";
             this.labelOuncesToGrams.Size = new System.Drawing.Size(100, 15);
             this.labelOuncesToGrams.TabIndex = 5;
@@ -460,7 +474,7 @@ namespace Converter
             // 
             this.label0CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label0CtoF.AutoSize = true;
-            this.label0CtoF.Location = new System.Drawing.Point(5, 60);
+            this.label0CtoF.Location = new System.Drawing.Point(5, 48);
             this.label0CtoF.Name = "label0CtoF";
             this.label0CtoF.Size = new System.Drawing.Size(139, 15);
             this.label0CtoF.TabIndex = 2;
@@ -471,7 +485,7 @@ namespace Converter
             // 
             this.label100CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label100CtoF.AutoSize = true;
-            this.label100CtoF.Location = new System.Drawing.Point(203, 60);
+            this.label100CtoF.Location = new System.Drawing.Point(203, 48);
             this.label100CtoF.Name = "label100CtoF";
             this.label100CtoF.Size = new System.Drawing.Size(157, 15);
             this.label100CtoF.TabIndex = 3;
@@ -481,7 +495,7 @@ namespace Converter
             // 
             this.labelKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelKMHtoMPH.AutoSize = true;
-            this.labelKMHtoMPH.Location = new System.Drawing.Point(5, 82);
+            this.labelKMHtoMPH.Location = new System.Drawing.Point(5, 70);
             this.labelKMHtoMPH.Name = "labelKMHtoMPH";
             this.labelKMHtoMPH.Size = new System.Drawing.Size(108, 15);
             this.labelKMHtoMPH.TabIndex = 6;
@@ -492,7 +506,7 @@ namespace Converter
             // 
             this.labelMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelMPHtoKMH.AutoSize = true;
-            this.labelMPHtoKMH.Location = new System.Drawing.Point(203, 82);
+            this.labelMPHtoKMH.Location = new System.Drawing.Point(203, 70);
             this.labelMPHtoKMH.Name = "labelMPHtoKMH";
             this.labelMPHtoKMH.Size = new System.Drawing.Size(108, 15);
             this.labelMPHtoKMH.TabIndex = 7;
@@ -509,6 +523,94 @@ namespace Converter
             this.labelMain.TabIndex = 0;
             this.labelMain.Text = "Quick Conversions";
             this.labelMain.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // labelCMtoIN
+            // 
+            this.labelCMtoIN.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelCMtoIN.AutoSize = true;
+            this.labelCMtoIN.Location = new System.Drawing.Point(5, 92);
+            this.labelCMtoIN.Name = "labelCMtoIN";
+            this.labelCMtoIN.Size = new System.Drawing.Size(81, 15);
+            this.labelCMtoIN.TabIndex = 8;
+            this.labelCMtoIN.Text = "1 cm = 0.39 in";
+            this.labelCMtoIN.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelINtoCM
+            // 
+            this.labelINtoCM.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelINtoCM.AutoSize = true;
+            this.labelINtoCM.Location = new System.Drawing.Point(203, 92);
+            this.labelINtoCM.Name = "labelINtoCM";
+            this.labelINtoCM.Size = new System.Drawing.Size(81, 15);
+            this.labelINtoCM.TabIndex = 9;
+            this.labelINtoCM.Text = "1 in = 2.54 cm";
+            this.labelINtoCM.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelMetersToFeet
+            // 
+            this.labelMetersToFeet.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelMetersToFeet.AutoSize = true;
+            this.labelMetersToFeet.Location = new System.Drawing.Point(5, 114);
+            this.labelMetersToFeet.Name = "labelMetersToFeet";
+            this.labelMetersToFeet.Size = new System.Drawing.Size(107, 15);
+            this.labelMetersToFeet.TabIndex = 10;
+            this.labelMetersToFeet.Text = "1 Meter = 3.28 Feet";
+            this.labelMetersToFeet.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelFeetToMeters
+            // 
+            this.labelFeetToMeters.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelFeetToMeters.AutoSize = true;
+            this.labelFeetToMeters.Location = new System.Drawing.Point(203, 114);
+            this.labelFeetToMeters.Name = "labelFeetToMeters";
+            this.labelFeetToMeters.Size = new System.Drawing.Size(114, 15);
+            this.labelFeetToMeters.TabIndex = 11;
+            this.labelFeetToMeters.Text = "1 Foot = 0.30 Meters";
+            this.labelFeetToMeters.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelFluidOunceToML
+            // 
+            this.labelFluidOunceToML.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelFluidOunceToML.AutoSize = true;
+            this.labelFluidOunceToML.Location = new System.Drawing.Point(5, 136);
+            this.labelFluidOunceToML.Name = "labelFluidOunceToML";
+            this.labelFluidOunceToML.Size = new System.Drawing.Size(141, 15);
+            this.labelFluidOunceToML.TabIndex = 12;
+            this.labelFluidOunceToML.Text = "1 Fluid Ounce = 29.57 mL";
+            this.labelFluidOunceToML.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelMLtoFluidOunce
+            // 
+            this.labelMLtoFluidOunce.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelMLtoFluidOunce.AutoSize = true;
+            this.labelMLtoFluidOunce.Location = new System.Drawing.Point(203, 136);
+            this.labelMLtoFluidOunce.Name = "labelMLtoFluidOunce";
+            this.labelMLtoFluidOunce.Size = new System.Drawing.Size(140, 15);
+            this.labelMLtoFluidOunce.TabIndex = 13;
+            this.labelMLtoFluidOunce.Text = "1 mL = 0.03 Fluid Ounces";
+            this.labelMLtoFluidOunce.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelLitersToGallons
+            // 
+            this.labelLitersToGallons.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelLitersToGallons.AutoSize = true;
+            this.labelLitersToGallons.Location = new System.Drawing.Point(5, 159);
+            this.labelLitersToGallons.Name = "labelLitersToGallons";
+            this.labelLitersToGallons.Size = new System.Drawing.Size(116, 15);
+            this.labelLitersToGallons.TabIndex = 14;
+            this.labelLitersToGallons.Text = "1 Liter = 0.26 Gallons";
+            this.labelLitersToGallons.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelGallonsToLiters
+            // 
+            this.labelGallonsToLiters.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelGallonsToLiters.AutoSize = true;
+            this.labelGallonsToLiters.Location = new System.Drawing.Point(203, 159);
+            this.labelGallonsToLiters.Name = "labelGallonsToLiters";
+            this.labelGallonsToLiters.Size = new System.Drawing.Size(116, 15);
+            this.labelGallonsToLiters.TabIndex = 15;
+            this.labelGallonsToLiters.Text = "1 Gallon = 3.78 Liters";
+            this.labelGallonsToLiters.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FormMain
             // 
@@ -566,6 +668,14 @@ namespace Converter
         private System.Windows.Forms.Label labelOuncesToGrams;
         private System.Windows.Forms.Label labelKMHtoMPH;
         private System.Windows.Forms.Label labelMPHtoKMH;
+        private System.Windows.Forms.Label labelCMtoIN;
+        private System.Windows.Forms.Label labelINtoCM;
+        private System.Windows.Forms.Label labelMetersToFeet;
+        private System.Windows.Forms.Label labelFeetToMeters;
+        private System.Windows.Forms.Label labelFluidOunceToML;
+        private System.Windows.Forms.Label labelMLtoFluidOunce;
+        private System.Windows.Forms.Label labelLitersToGallons;
+        private System.Windows.Forms.Label labelGallonsToLiters;
     }
 }
 
