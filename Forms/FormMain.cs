@@ -102,7 +102,7 @@ namespace Converter
             panelDesktop.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
-            labelHomeChildForm.Text = childForm.Text;
+            labelHomeChildForm.Text = childForm.Text.Remove(0, 4); // Remove the first 4 chars that include "Form".
         }
 
         private void weightButton_Click(object sender, EventArgs e)

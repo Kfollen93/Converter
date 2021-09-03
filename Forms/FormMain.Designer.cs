@@ -51,9 +51,9 @@ namespace Converter
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.labelKilogramsToPounds = new System.Windows.Forms.Label();
             this.labelPoundsToKilograms = new System.Windows.Forms.Label();
-            this.labelMain = new System.Windows.Forms.Label();
             this.label0CtoF = new System.Windows.Forms.Label();
             this.label100CtoF = new System.Windows.Forms.Label();
+            this.labelMain = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panel1Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
@@ -152,7 +152,7 @@ namespace Converter
             this.distanceButton.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.distanceButton.Size = new System.Drawing.Size(173, 50);
             this.distanceButton.TabIndex = 4;
-            this.distanceButton.Text = "Distance";
+            this.distanceButton.Text = "Length";
             this.distanceButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.distanceButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.distanceButton.UseVisualStyleBackColor = false;
@@ -426,17 +426,6 @@ namespace Converter
             this.labelPoundsToKilograms.Text = "1lb = 0.45kg";
             this.labelPoundsToKilograms.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelMain
-            // 
-            this.labelMain.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelMain.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMain.Location = new System.Drawing.Point(216, 12);
-            this.labelMain.Name = "labelMain";
-            this.labelMain.Size = new System.Drawing.Size(178, 32);
-            this.labelMain.TabIndex = 0;
-            this.labelMain.Text = "Quick Conversions";
-            this.labelMain.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // label0CtoF
             // 
             this.label0CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -457,6 +446,17 @@ namespace Converter
             this.label100CtoF.Size = new System.Drawing.Size(157, 15);
             this.label100CtoF.TabIndex = 3;
             this.label100CtoF.Text = "100 Celcius = 212 Fahrenheit";
+            // 
+            // labelMain
+            // 
+            this.labelMain.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelMain.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelMain.Location = new System.Drawing.Point(216, 12);
+            this.labelMain.Name = "labelMain";
+            this.labelMain.Size = new System.Drawing.Size(178, 32);
+            this.labelMain.TabIndex = 0;
+            this.labelMain.Text = "Quick Conversions";
+            this.labelMain.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // FormMain
             // 
