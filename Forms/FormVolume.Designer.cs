@@ -67,6 +67,7 @@ namespace Converter.Forms
             this.buttonSubmitMililitersToFluidOz.TabIndex = 22;
             this.buttonSubmitMililitersToFluidOz.Text = "Convert";
             this.buttonSubmitMililitersToFluidOz.UseVisualStyleBackColor = true;
+            this.buttonSubmitMililitersToFluidOz.Click += new System.EventHandler(this.buttonSubmitMililitersToFluidOz_Click);
             // 
             // textBoxMililitersToFluidOz
             // 
@@ -108,6 +109,7 @@ namespace Converter.Forms
             this.buttonSubmitFluidOzToML.TabIndex = 18;
             this.buttonSubmitFluidOzToML.Text = "Convert";
             this.buttonSubmitFluidOzToML.UseVisualStyleBackColor = true;
+            this.buttonSubmitFluidOzToML.Click += new System.EventHandler(this.buttonSubmitFluidOzToML_Click);
             // 
             // textBoxFluidOzToML
             // 
@@ -149,6 +151,7 @@ namespace Converter.Forms
             this.buttonSubmitGallonsToLiters.TabIndex = 30;
             this.buttonSubmitGallonsToLiters.Text = "Convert";
             this.buttonSubmitGallonsToLiters.UseVisualStyleBackColor = true;
+            this.buttonSubmitGallonsToLiters.Click += new System.EventHandler(this.buttonSubmitGallonsToLiters_Click);
             // 
             // textBoxGallonsToLiters
             // 
@@ -190,6 +193,7 @@ namespace Converter.Forms
             this.buttonSubmitLitersToGallons.TabIndex = 26;
             this.buttonSubmitLitersToGallons.Text = "Convert";
             this.buttonSubmitLitersToGallons.UseVisualStyleBackColor = true;
+            this.buttonSubmitLitersToGallons.Click += new System.EventHandler(this.buttonSubmitLitersToGallons_Click);
             // 
             // textBoxLitersToGallons
             // 
