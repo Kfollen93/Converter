@@ -126,6 +126,7 @@ namespace Converter
         private void distanceButton_Click(object sender, EventArgs e)
         {
             ActivateButtonColorChange(sender, RGBColors.color4);
+            OpenChildForm(new Forms.FormLength());
         }
 
         private void volumeButton_Click(object sender, EventArgs e)
