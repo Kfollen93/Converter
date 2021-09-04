@@ -67,6 +67,7 @@ namespace Converter.Forms
             this.buttonSubmitInchesToCM.TabIndex = 22;
             this.buttonSubmitInchesToCM.Text = "Convert";
             this.buttonSubmitInchesToCM.UseVisualStyleBackColor = true;
+            this.buttonSubmitInchesToCM.Click += new System.EventHandler(this.buttonSubmitInchesToCM_Click);
             // 
             // textBoxInchesToCM
             // 
@@ -74,7 +75,7 @@ namespace Converter.Forms
             this.textBoxInchesToCM.Location = new System.Drawing.Point(127, 164);
             this.textBoxInchesToCM.MaxLength = 6;
             this.textBoxInchesToCM.Name = "textBoxInchesToCM";
-            this.textBoxInchesToCM.PlaceholderText = "Example: 98.6";
+            this.textBoxInchesToCM.PlaceholderText = "Example: 0.39";
             this.textBoxInchesToCM.Size = new System.Drawing.Size(125, 23);
             this.textBoxInchesToCM.TabIndex = 21;
             // 
@@ -108,6 +109,7 @@ namespace Converter.Forms
             this.buttonSubmitCMtoInches.TabIndex = 18;
             this.buttonSubmitCMtoInches.Text = "Convert";
             this.buttonSubmitCMtoInches.UseVisualStyleBackColor = true;
+            this.buttonSubmitCMtoInches.Click += new System.EventHandler(this.buttonSubmitCMtoInches_Click);
             // 
             // textBoxCMtoInches
             // 
@@ -115,7 +117,7 @@ namespace Converter.Forms
             this.textBoxCMtoInches.Location = new System.Drawing.Point(127, 74);
             this.textBoxCMtoInches.MaxLength = 6;
             this.textBoxCMtoInches.Name = "textBoxCMtoInches";
-            this.textBoxCMtoInches.PlaceholderText = "Example: 37";
+            this.textBoxCMtoInches.PlaceholderText = "Example: 1";
             this.textBoxCMtoInches.Size = new System.Drawing.Size(125, 23);
             this.textBoxCMtoInches.TabIndex = 17;
             // 
@@ -149,6 +151,7 @@ namespace Converter.Forms
             this.buttonSubmitFeetToMeters.TabIndex = 30;
             this.buttonSubmitFeetToMeters.Text = "Convert";
             this.buttonSubmitFeetToMeters.UseVisualStyleBackColor = true;
+            this.buttonSubmitFeetToMeters.Click += new System.EventHandler(this.buttonSubmitFeetToMeters_Click);
             // 
             // textBoxFeetToMeters
             // 
@@ -156,7 +159,7 @@ namespace Converter.Forms
             this.textBoxFeetToMeters.Location = new System.Drawing.Point(127, 338);
             this.textBoxFeetToMeters.MaxLength = 6;
             this.textBoxFeetToMeters.Name = "textBoxFeetToMeters";
-            this.textBoxFeetToMeters.PlaceholderText = "Example: 1";
+            this.textBoxFeetToMeters.PlaceholderText = "Example: 3.28";
             this.textBoxFeetToMeters.Size = new System.Drawing.Size(125, 23);
             this.textBoxFeetToMeters.TabIndex = 29;
             // 
@@ -190,6 +193,7 @@ namespace Converter.Forms
             this.buttonSubmitMetersToFeet.TabIndex = 26;
             this.buttonSubmitMetersToFeet.Text = "Convert";
             this.buttonSubmitMetersToFeet.UseVisualStyleBackColor = true;
+            this.buttonSubmitMetersToFeet.Click += new System.EventHandler(this.buttonSubmitMetersToFeet_Click);
             // 
             // textBoxMetersToFeet
             // 
@@ -197,7 +201,7 @@ namespace Converter.Forms
             this.textBoxMetersToFeet.Location = new System.Drawing.Point(127, 248);
             this.textBoxMetersToFeet.MaxLength = 6;
             this.textBoxMetersToFeet.Name = "textBoxMetersToFeet";
-            this.textBoxMetersToFeet.PlaceholderText = "Example: 28";
+            this.textBoxMetersToFeet.PlaceholderText = "Example: 1";
             this.textBoxMetersToFeet.Size = new System.Drawing.Size(125, 23);
             this.textBoxMetersToFeet.TabIndex = 25;
             // 
