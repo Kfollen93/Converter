@@ -132,6 +132,7 @@ namespace Converter
         private void volumeButton_Click(object sender, EventArgs e)
         {
             ActivateButtonColorChange(sender, RGBColors.color5);
+            OpenChildForm(new Forms.FormVolume());
         }
 
         private void buttonHome_Click(object sender, EventArgs e)
