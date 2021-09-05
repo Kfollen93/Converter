@@ -29,97 +29,99 @@ namespace Converter.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelOutputMPHtoKMH = new System.Windows.Forms.Label();
-            this.buttonSubmitMPHtoKMH = new System.Windows.Forms.Button();
-            this.textBoxMPHtoKMH = new System.Windows.Forms.TextBox();
-            this.labelMPHtoKMH = new System.Windows.Forms.Label();
-            this.labelOutputKMHtoMPH = new System.Windows.Forms.Label();
-            this.buttonSubmitKMHtoMPH = new System.Windows.Forms.Button();
-            this.textBoxKMHtoMPH = new System.Windows.Forms.TextBox();
-            this.labelKMHtoMPH = new System.Windows.Forms.Label();
+            this.labelOutputMilesToKilometers = new System.Windows.Forms.Label();
+            this.buttonSubmitMilesToKilometers = new System.Windows.Forms.Button();
+            this.textBoxMilesToKilometers = new System.Windows.Forms.TextBox();
+            this.labelMilesToKilometers = new System.Windows.Forms.Label();
+            this.labelOutputKilometersToMiles = new System.Windows.Forms.Label();
+            this.buttonSubmitKilometersToMiles = new System.Windows.Forms.Button();
+            this.textBoxKilometersToMiles = new System.Windows.Forms.TextBox();
+            this.labelKilometersToMiles = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // labelOutputMPHtoKMH
+            // labelOutputMilesToKilometers
             // 
-            this.labelOutputMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelOutputMPHtoKMH.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.labelOutputMPHtoKMH.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputMPHtoKMH.Location = new System.Drawing.Point(466, 276);
-            this.labelOutputMPHtoKMH.Name = "labelOutputMPHtoKMH";
-            this.labelOutputMPHtoKMH.Size = new System.Drawing.Size(125, 23);
-            this.labelOutputMPHtoKMH.TabIndex = 31;
-            this.labelOutputMPHtoKMH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelOutputMilesToKilometers.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelOutputMilesToKilometers.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.labelOutputMilesToKilometers.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelOutputMilesToKilometers.Location = new System.Drawing.Point(466, 276);
+            this.labelOutputMilesToKilometers.Name = "labelOutputMilesToKilometers";
+            this.labelOutputMilesToKilometers.Size = new System.Drawing.Size(125, 23);
+            this.labelOutputMilesToKilometers.TabIndex = 31;
+            this.labelOutputMilesToKilometers.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // buttonSubmitMPHtoKMH
+            // buttonSubmitMilesToKilometers
             // 
-            this.buttonSubmitMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitMPHtoKMH.Location = new System.Drawing.Point(332, 277);
-            this.buttonSubmitMPHtoKMH.Name = "buttonSubmitMPHtoKMH";
-            this.buttonSubmitMPHtoKMH.Size = new System.Drawing.Size(75, 23);
-            this.buttonSubmitMPHtoKMH.TabIndex = 30;
-            this.buttonSubmitMPHtoKMH.Text = "Convert";
-            this.buttonSubmitMPHtoKMH.UseVisualStyleBackColor = true;
+            this.buttonSubmitMilesToKilometers.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.buttonSubmitMilesToKilometers.Location = new System.Drawing.Point(332, 277);
+            this.buttonSubmitMilesToKilometers.Name = "buttonSubmitMilesToKilometers";
+            this.buttonSubmitMilesToKilometers.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitMilesToKilometers.TabIndex = 30;
+            this.buttonSubmitMilesToKilometers.Text = "Convert";
+            this.buttonSubmitMilesToKilometers.UseVisualStyleBackColor = true;
+            this.buttonSubmitMilesToKilometers.Click += new System.EventHandler(this.buttonSubmitMilesToKilometers_Click);
             // 
-            // textBoxMPHtoKMH
+            // textBoxMilesToKilometers
             // 
-            this.textBoxMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxMPHtoKMH.Location = new System.Drawing.Point(127, 278);
-            this.textBoxMPHtoKMH.MaxLength = 6;
-            this.textBoxMPHtoKMH.Name = "textBoxMPHtoKMH";
-            this.textBoxMPHtoKMH.PlaceholderText = "Example: 95.5";
-            this.textBoxMPHtoKMH.Size = new System.Drawing.Size(125, 23);
-            this.textBoxMPHtoKMH.TabIndex = 29;
+            this.textBoxMilesToKilometers.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBoxMilesToKilometers.Location = new System.Drawing.Point(127, 278);
+            this.textBoxMilesToKilometers.MaxLength = 6;
+            this.textBoxMilesToKilometers.Name = "textBoxMilesToKilometers";
+            this.textBoxMilesToKilometers.PlaceholderText = "Example: 95.5";
+            this.textBoxMilesToKilometers.Size = new System.Drawing.Size(125, 23);
+            this.textBoxMilesToKilometers.TabIndex = 29;
             // 
-            // labelMPHtoKMH
+            // labelMilesToKilometers
             // 
-            this.labelMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelMPHtoKMH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMPHtoKMH.Location = new System.Drawing.Point(229, 196);
-            this.labelMPHtoKMH.Name = "labelMPHtoKMH";
-            this.labelMPHtoKMH.Size = new System.Drawing.Size(178, 32);
-            this.labelMPHtoKMH.TabIndex = 28;
-            this.labelMPHtoKMH.Text = "MPH to KMH";
+            this.labelMilesToKilometers.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelMilesToKilometers.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelMilesToKilometers.Location = new System.Drawing.Point(229, 196);
+            this.labelMilesToKilometers.Name = "labelMilesToKilometers";
+            this.labelMilesToKilometers.Size = new System.Drawing.Size(178, 32);
+            this.labelMilesToKilometers.TabIndex = 28;
+            this.labelMilesToKilometers.Text = "Miles to Kilometers";
             // 
-            // labelOutputKMHtoMPH
+            // labelOutputKilometersToMiles
             // 
-            this.labelOutputKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelOutputKMHtoMPH.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.labelOutputKMHtoMPH.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputKMHtoMPH.Location = new System.Drawing.Point(466, 106);
-            this.labelOutputKMHtoMPH.Name = "labelOutputKMHtoMPH";
-            this.labelOutputKMHtoMPH.Size = new System.Drawing.Size(125, 23);
-            this.labelOutputKMHtoMPH.TabIndex = 27;
-            this.labelOutputKMHtoMPH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelOutputKilometersToMiles.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelOutputKilometersToMiles.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.labelOutputKilometersToMiles.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelOutputKilometersToMiles.Location = new System.Drawing.Point(466, 106);
+            this.labelOutputKilometersToMiles.Name = "labelOutputKilometersToMiles";
+            this.labelOutputKilometersToMiles.Size = new System.Drawing.Size(125, 23);
+            this.labelOutputKilometersToMiles.TabIndex = 27;
+            this.labelOutputKilometersToMiles.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // buttonSubmitKMHtoMPH
+            // buttonSubmitKilometersToMiles
             // 
-            this.buttonSubmitKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitKMHtoMPH.Location = new System.Drawing.Point(332, 105);
-            this.buttonSubmitKMHtoMPH.Name = "buttonSubmitKMHtoMPH";
-            this.buttonSubmitKMHtoMPH.Size = new System.Drawing.Size(75, 23);
-            this.buttonSubmitKMHtoMPH.TabIndex = 26;
-            this.buttonSubmitKMHtoMPH.Text = "Convert";
-            this.buttonSubmitKMHtoMPH.UseVisualStyleBackColor = true;
+            this.buttonSubmitKilometersToMiles.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.buttonSubmitKilometersToMiles.Location = new System.Drawing.Point(332, 105);
+            this.buttonSubmitKilometersToMiles.Name = "buttonSubmitKilometersToMiles";
+            this.buttonSubmitKilometersToMiles.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitKilometersToMiles.TabIndex = 26;
+            this.buttonSubmitKilometersToMiles.Text = "Convert";
+            this.buttonSubmitKilometersToMiles.UseVisualStyleBackColor = true;
+            this.buttonSubmitKilometersToMiles.Click += new System.EventHandler(this.buttonSubmitKilometersToMiles_Click);
             // 
-            // textBoxKMHtoMPH
+            // textBoxKilometersToMiles
             // 
-            this.textBoxKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxKMHtoMPH.Location = new System.Drawing.Point(127, 106);
-            this.textBoxKMHtoMPH.MaxLength = 6;
-            this.textBoxKMHtoMPH.Name = "textBoxKMHtoMPH";
-            this.textBoxKMHtoMPH.PlaceholderText = "Example: 60";
-            this.textBoxKMHtoMPH.Size = new System.Drawing.Size(125, 23);
-            this.textBoxKMHtoMPH.TabIndex = 25;
+            this.textBoxKilometersToMiles.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBoxKilometersToMiles.Location = new System.Drawing.Point(127, 106);
+            this.textBoxKilometersToMiles.MaxLength = 6;
+            this.textBoxKilometersToMiles.Name = "textBoxKilometersToMiles";
+            this.textBoxKilometersToMiles.PlaceholderText = "Example: 60";
+            this.textBoxKilometersToMiles.Size = new System.Drawing.Size(125, 23);
+            this.textBoxKilometersToMiles.TabIndex = 25;
             // 
-            // labelKMHtoMPH
+            // labelKilometersToMiles
             // 
-            this.labelKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelKMHtoMPH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelKMHtoMPH.Location = new System.Drawing.Point(229, 41);
-            this.labelKMHtoMPH.Name = "labelKMHtoMPH";
-            this.labelKMHtoMPH.Size = new System.Drawing.Size(178, 32);
-            this.labelKMHtoMPH.TabIndex = 24;
-            this.labelKMHtoMPH.Text = "KMH to MPH";
+            this.labelKilometersToMiles.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelKilometersToMiles.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelKilometersToMiles.Location = new System.Drawing.Point(229, 41);
+            this.labelKilometersToMiles.Name = "labelKilometersToMiles";
+            this.labelKilometersToMiles.Size = new System.Drawing.Size(178, 32);
+            this.labelKilometersToMiles.TabIndex = 24;
+            this.labelKilometersToMiles.Text = "Kilometers to Miles";
             // 
             // FormDistance
             // 
@@ -127,14 +129,14 @@ namespace Converter.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(100)))), ((int)(((byte)(240)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.labelOutputMPHtoKMH);
-            this.Controls.Add(this.buttonSubmitMPHtoKMH);
-            this.Controls.Add(this.textBoxMPHtoKMH);
-            this.Controls.Add(this.labelMPHtoKMH);
-            this.Controls.Add(this.labelOutputKMHtoMPH);
-            this.Controls.Add(this.buttonSubmitKMHtoMPH);
-            this.Controls.Add(this.textBoxKMHtoMPH);
-            this.Controls.Add(this.labelKMHtoMPH);
+            this.Controls.Add(this.labelOutputMilesToKilometers);
+            this.Controls.Add(this.buttonSubmitMilesToKilometers);
+            this.Controls.Add(this.textBoxMilesToKilometers);
+            this.Controls.Add(this.labelMilesToKilometers);
+            this.Controls.Add(this.labelOutputKilometersToMiles);
+            this.Controls.Add(this.buttonSubmitKilometersToMiles);
+            this.Controls.Add(this.textBoxKilometersToMiles);
+            this.Controls.Add(this.labelKilometersToMiles);
             this.Name = "FormDistance";
             this.Text = "FormDistance";
             this.ResumeLayout(false);
@@ -144,13 +146,13 @@ namespace Converter.Forms
 
         #endregion
 
-        private System.Windows.Forms.Label labelOutputMPHtoKMH;
-        private System.Windows.Forms.Button buttonSubmitMPHtoKMH;
-        private System.Windows.Forms.TextBox textBoxMPHtoKMH;
-        private System.Windows.Forms.Label labelMPHtoKMH;
-        private System.Windows.Forms.Label labelOutputKMHtoMPH;
-        private System.Windows.Forms.Button buttonSubmitKMHtoMPH;
-        private System.Windows.Forms.TextBox textBoxKMHtoMPH;
-        private System.Windows.Forms.Label labelKMHtoMPH;
+        private System.Windows.Forms.Label labelOutputMilesToKilometers;
+        private System.Windows.Forms.Button buttonSubmitMilesToKilometers;
+        private System.Windows.Forms.TextBox textBoxMilesToKilometers;
+        private System.Windows.Forms.Label labelMilesToKilometers;
+        private System.Windows.Forms.Label labelOutputKilometersToMiles;
+        private System.Windows.Forms.Button buttonSubmitKilometersToMiles;
+        private System.Windows.Forms.TextBox textBoxKilometersToMiles;
+        private System.Windows.Forms.Label labelKilometersToMiles;
     }
 }
