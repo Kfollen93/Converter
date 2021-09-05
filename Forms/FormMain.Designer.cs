@@ -31,7 +31,7 @@ namespace Converter
         {
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
+            this.kmMilesDistanceButton = new FontAwesome.Sharp.IconButton();
             this.volumeButton = new FontAwesome.Sharp.IconButton();
             this.distanceButton = new FontAwesome.Sharp.IconButton();
             this.speedButton = new FontAwesome.Sharp.IconButton();
@@ -49,6 +49,8 @@ namespace Converter
             this.panelShadow = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.labelKilometersToMiles = new System.Windows.Forms.Label();
+            this.labelMilesToKilometers = new System.Windows.Forms.Label();
             this.labelKilogramsToPounds = new System.Windows.Forms.Label();
             this.labelPoundsToKilograms = new System.Windows.Forms.Label();
             this.labelGramsToOunces = new System.Windows.Forms.Label();
@@ -79,7 +81,7 @@ namespace Converter
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
             this.panelMenu.Controls.Add(this.panel1);
-            this.panelMenu.Controls.Add(this.iconButton6);
+            this.panelMenu.Controls.Add(this.kmMilesDistanceButton);
             this.panelMenu.Controls.Add(this.volumeButton);
             this.panelMenu.Controls.Add(this.distanceButton);
             this.panelMenu.Controls.Add(this.speedButton);
@@ -100,27 +102,28 @@ namespace Converter
             this.panel1.Size = new System.Drawing.Size(173, 6);
             this.panel1.TabIndex = 1;
             // 
-            // iconButton6
+            // kmMilesDistanceButton
             // 
-            this.iconButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
-            this.iconButton6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton6.FlatAppearance.BorderSize = 0;
-            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton6.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.ThinkPeaks;
-            this.iconButton6.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton6.IconSize = 32;
-            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.Location = new System.Drawing.Point(0, 324);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton6.Size = new System.Drawing.Size(173, 50);
-            this.iconButton6.TabIndex = 6;
-            this.iconButton6.Text = "Distance";
-            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton6.UseVisualStyleBackColor = false;
+            this.kmMilesDistanceButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
+            this.kmMilesDistanceButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.kmMilesDistanceButton.FlatAppearance.BorderSize = 0;
+            this.kmMilesDistanceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kmMilesDistanceButton.ForeColor = System.Drawing.Color.Gainsboro;
+            this.kmMilesDistanceButton.IconChar = FontAwesome.Sharp.IconChar.ThinkPeaks;
+            this.kmMilesDistanceButton.IconColor = System.Drawing.Color.Gainsboro;
+            this.kmMilesDistanceButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.kmMilesDistanceButton.IconSize = 32;
+            this.kmMilesDistanceButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.kmMilesDistanceButton.Location = new System.Drawing.Point(0, 324);
+            this.kmMilesDistanceButton.Name = "kmMilesDistanceButton";
+            this.kmMilesDistanceButton.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.kmMilesDistanceButton.Size = new System.Drawing.Size(173, 50);
+            this.kmMilesDistanceButton.TabIndex = 6;
+            this.kmMilesDistanceButton.Text = "Distance";
+            this.kmMilesDistanceButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.kmMilesDistanceButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.kmMilesDistanceButton.UseVisualStyleBackColor = false;
+            this.kmMilesDistanceButton.Click += new System.EventHandler(this.kmMilesDistanceButton_Click);
             // 
             // volumeButton
             // 
@@ -396,6 +399,8 @@ namespace Converter
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.labelKilometersToMiles, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.labelMilesToKilometers, 0, 8);
             this.tableLayoutPanel1.Controls.Add(this.labelKilogramsToPounds, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.labelPoundsToKilograms, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.labelGramsToOunces, 0, 1);
@@ -414,7 +419,7 @@ namespace Converter
             this.tableLayoutPanel1.Controls.Add(this.labelGallonsToLiters, 1, 7);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(103, 47);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 8;
+            this.tableLayoutPanel1.RowCount = 9;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -423,8 +428,31 @@ namespace Converter
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(399, 180);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(399, 197);
             this.tableLayoutPanel1.TabIndex = 1;
+            // 
+            // labelKilometersToMiles
+            // 
+            this.labelKilometersToMiles.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelKilometersToMiles.AutoSize = true;
+            this.labelKilometersToMiles.Location = new System.Drawing.Point(5, 180);
+            this.labelKilometersToMiles.Name = "labelKilometersToMiles";
+            this.labelKilometersToMiles.Size = new System.Drawing.Size(133, 15);
+            this.labelKilometersToMiles.TabIndex = 17;
+            this.labelKilometersToMiles.Text = "1 Kilometer = 0.62 Miles";
+            this.labelKilometersToMiles.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelMilesToKilometers
+            // 
+            this.labelMilesToKilometers.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelMilesToKilometers.AutoSize = true;
+            this.labelMilesToKilometers.Location = new System.Drawing.Point(203, 180);
+            this.labelMilesToKilometers.Name = "labelMilesToKilometers";
+            this.labelMilesToKilometers.Size = new System.Drawing.Size(133, 15);
+            this.labelMilesToKilometers.TabIndex = 16;
+            this.labelMilesToKilometers.Text = "1 Mile = 1.60 Kilometers";
+            this.labelMilesToKilometers.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelKilogramsToPounds
             // 
@@ -583,7 +611,7 @@ namespace Converter
             // 
             this.labelLitersToGallons.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelLitersToGallons.AutoSize = true;
-            this.labelLitersToGallons.Location = new System.Drawing.Point(5, 159);
+            this.labelLitersToGallons.Location = new System.Drawing.Point(5, 158);
             this.labelLitersToGallons.Name = "labelLitersToGallons";
             this.labelLitersToGallons.Size = new System.Drawing.Size(116, 15);
             this.labelLitersToGallons.TabIndex = 14;
@@ -594,7 +622,7 @@ namespace Converter
             // 
             this.labelGallonsToLiters.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelGallonsToLiters.AutoSize = true;
-            this.labelGallonsToLiters.Location = new System.Drawing.Point(203, 159);
+            this.labelGallonsToLiters.Location = new System.Drawing.Point(203, 158);
             this.labelGallonsToLiters.Name = "labelGallonsToLiters";
             this.labelGallonsToLiters.Size = new System.Drawing.Size(116, 15);
             this.labelGallonsToLiters.TabIndex = 15;
@@ -640,7 +668,7 @@ namespace Converter
         #endregion
 
         private System.Windows.Forms.Panel panelMenu;
-        private FontAwesome.Sharp.IconButton iconButton6;
+        private FontAwesome.Sharp.IconButton kmMilesDistanceButton;
         private FontAwesome.Sharp.IconButton volumeButton;
         private FontAwesome.Sharp.IconButton distanceButton;
         private FontAwesome.Sharp.IconButton speedButton;
@@ -676,6 +704,8 @@ namespace Converter
         private System.Windows.Forms.Label labelMLtoFluidOunce;
         private System.Windows.Forms.Label labelLitersToGallons;
         private System.Windows.Forms.Label labelGallonsToLiters;
+        private System.Windows.Forms.Label labelKilometersToMiles;
+        private System.Windows.Forms.Label labelMilesToKilometers;
     }
 }
 

@@ -135,6 +135,12 @@ namespace Converter
             OpenChildForm(new Forms.FormVolume());
         }
 
+        private void kmMilesDistanceButton_Click(object sender, EventArgs e)
+        {
+            ActivateButtonColorChange(sender, RGBColors.color6);
+            OpenChildForm(new Forms.FormDistance());
+        }
+
         private void buttonHome_Click(object sender, EventArgs e)
         {
             if (currentChildForm != null)
