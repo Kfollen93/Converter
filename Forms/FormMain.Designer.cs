@@ -57,7 +57,6 @@ namespace Converter
             this.label100CtoF = new System.Windows.Forms.Label();
             this.labelKMHtoMPH = new System.Windows.Forms.Label();
             this.labelMPHtoKMH = new System.Windows.Forms.Label();
-            this.labelMain = new System.Windows.Forms.Label();
             this.labelCMtoIN = new System.Windows.Forms.Label();
             this.labelINtoCM = new System.Windows.Forms.Label();
             this.labelMetersToFeet = new System.Windows.Forms.Label();
@@ -66,6 +65,7 @@ namespace Converter
             this.labelMLtoFluidOunce = new System.Windows.Forms.Label();
             this.labelLitersToGallons = new System.Windows.Forms.Label();
             this.labelGallonsToLiters = new System.Windows.Forms.Label();
+            this.labelMain = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panel1Title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.buttonHome)).BeginInit();
@@ -107,7 +107,7 @@ namespace Converter
             this.iconButton6.FlatAppearance.BorderSize = 0;
             this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton6.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.WeightHanging;
+            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.ThinkPeaks;
             this.iconButton6.IconColor = System.Drawing.Color.Gainsboro;
             this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton6.IconSize = 32;
@@ -117,7 +117,7 @@ namespace Converter
             this.iconButton6.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.iconButton6.Size = new System.Drawing.Size(173, 50);
             this.iconButton6.TabIndex = 6;
-            this.iconButton6.Text = "iconButton6";
+            this.iconButton6.Text = "Distance";
             this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton6.UseVisualStyleBackColor = false;
@@ -154,7 +154,7 @@ namespace Converter
             this.distanceButton.FlatAppearance.BorderSize = 0;
             this.distanceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.distanceButton.ForeColor = System.Drawing.Color.Gainsboro;
-            this.distanceButton.IconChar = FontAwesome.Sharp.IconChar.ThinkPeaks;
+            this.distanceButton.IconChar = FontAwesome.Sharp.IconChar.Ruler;
             this.distanceButton.IconColor = System.Drawing.Color.Gainsboro;
             this.distanceButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.distanceButton.IconSize = 32;
@@ -513,17 +513,6 @@ namespace Converter
             this.labelMPHtoKMH.Text = "1 MPH = 1.60 KMH";
             this.labelMPHtoKMH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // labelMain
-            // 
-            this.labelMain.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelMain.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMain.Location = new System.Drawing.Point(216, 12);
-            this.labelMain.Name = "labelMain";
-            this.labelMain.Size = new System.Drawing.Size(178, 32);
-            this.labelMain.TabIndex = 0;
-            this.labelMain.Text = "Quick Conversions";
-            this.labelMain.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // labelCMtoIN
             // 
             this.labelCMtoIN.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -611,6 +600,17 @@ namespace Converter
             this.labelGallonsToLiters.TabIndex = 15;
             this.labelGallonsToLiters.Text = "1 Gallon = 3.78 Liters";
             this.labelGallonsToLiters.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // labelMain
+            // 
+            this.labelMain.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelMain.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelMain.Location = new System.Drawing.Point(216, 12);
+            this.labelMain.Name = "labelMain";
+            this.labelMain.Size = new System.Drawing.Size(178, 32);
+            this.labelMain.TabIndex = 0;
+            this.labelMain.Text = "Quick Conversions";
+            this.labelMain.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // FormMain
             // 
