@@ -30,7 +30,7 @@ namespace Converter.Forms
             else
             {
                 outputMiles = inputKilometers * 0.621371;
-                labelOutputKilometersToMiles.Text = string.Format("{0:0.00} mile(s)", outputMiles);
+                labelOutputKilometersToMiles.Text = string.Format("{0:0.00} mi", outputMiles);
             }
         }
 
@@ -47,7 +47,7 @@ namespace Converter.Forms
             else
             {
                 outputKilometers = inputMiles * 1.60934;
-                labelOutputMilesToKilometers.Text = string.Format("{0:0.00} kilometer(s)", outputKilometers);
+                labelOutputMilesToKilometers.Text = string.Format("{0:0.00} km", outputKilometers);
             }
         }
     }

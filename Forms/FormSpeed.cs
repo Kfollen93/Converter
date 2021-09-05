@@ -30,7 +30,7 @@ namespace Converter.Forms
             else
             {
                 outputMPH = inputKMH * 0.621371;
-                labelOutputKMHtoMPH.Text = string.Format("{0:0.00} MPH", outputMPH);
+                labelOutputKMHtoMPH.Text = string.Format("{0:0.00} mph", outputMPH);
             }
         }
 
@@ -47,7 +47,7 @@ namespace Converter.Forms
             else
             {
                 outputKMH = inputMPH * 1.60934;
-                labelOutputMPHtoKMH.Text = string.Format("{0:0.00} KMH", outputKMH);
+                labelOutputMPHtoKMH.Text = string.Format("{0:0.00} kmh", outputKMH);
             }
         }
     }

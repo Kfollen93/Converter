@@ -64,14 +64,7 @@ namespace Converter.Forms
             else
             {
                 outputFeet = inputMeters * 3.28084;
-                if (outputFeet <= 1)
-                {
-                    labelOutputMetersToFeet.Text = string.Format("{0:0.00} foot", outputFeet);
-                }
-                else
-                {
-                    labelOutputMetersToFeet.Text = string.Format("{0:0.00} feet", outputFeet);
-                }
+                labelOutputMetersToFeet.Text = string.Format("{0:0.00} ft", outputFeet);
             }
         }
 
@@ -88,14 +81,7 @@ namespace Converter.Forms
             else
             {
                 outputMeters = inputFeet * 0.3048;
-                if (outputMeters <= 1)
-                {
-                    labelOutputFeetToMeters.Text = string.Format("{0:0.00} meter", outputMeters);
-                }
-                else
-                {
-                    labelOutputFeetToMeters.Text = string.Format("{0:0.00} meters", outputMeters);
-                }
+                labelOutputFeetToMeters.Text = string.Format("{0:0.00} m", outputMeters);
             }
         }
     }
