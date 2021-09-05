@@ -52,7 +52,7 @@ namespace Converter.Forms
             this.labelOutputInchesToCM.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputInchesToCM.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputInchesToCM.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputInchesToCM.Location = new System.Drawing.Point(466, 165);
+            this.labelOutputInchesToCM.Location = new System.Drawing.Point(466, 152);
             this.labelOutputInchesToCM.Name = "labelOutputInchesToCM";
             this.labelOutputInchesToCM.Size = new System.Drawing.Size(125, 23);
             this.labelOutputInchesToCM.TabIndex = 23;
@@ -61,7 +61,7 @@ namespace Converter.Forms
             // buttonSubmitInchesToCM
             // 
             this.buttonSubmitInchesToCM.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitInchesToCM.Location = new System.Drawing.Point(332, 164);
+            this.buttonSubmitInchesToCM.Location = new System.Drawing.Point(332, 151);
             this.buttonSubmitInchesToCM.Name = "buttonSubmitInchesToCM";
             this.buttonSubmitInchesToCM.Size = new System.Drawing.Size(75, 23);
             this.buttonSubmitInchesToCM.TabIndex = 22;
@@ -72,7 +72,7 @@ namespace Converter.Forms
             // textBoxInchesToCM
             // 
             this.textBoxInchesToCM.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxInchesToCM.Location = new System.Drawing.Point(127, 164);
+            this.textBoxInchesToCM.Location = new System.Drawing.Point(127, 151);
             this.textBoxInchesToCM.MaxLength = 6;
             this.textBoxInchesToCM.Name = "textBoxInchesToCM";
             this.textBoxInchesToCM.PlaceholderText = "Example: 0.39";
@@ -83,7 +83,7 @@ namespace Converter.Forms
             // 
             this.labelInchToCM.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelInchToCM.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelInchToCM.Location = new System.Drawing.Point(229, 115);
+            this.labelInchToCM.Location = new System.Drawing.Point(229, 102);
             this.labelInchToCM.Name = "labelInchToCM";
             this.labelInchToCM.Size = new System.Drawing.Size(178, 32);
             this.labelInchToCM.TabIndex = 20;
@@ -94,7 +94,7 @@ namespace Converter.Forms
             this.labelOutputCMtoInches.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputCMtoInches.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputCMtoInches.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputCMtoInches.Location = new System.Drawing.Point(466, 75);
+            this.labelOutputCMtoInches.Location = new System.Drawing.Point(466, 62);
             this.labelOutputCMtoInches.Name = "labelOutputCMtoInches";
             this.labelOutputCMtoInches.Size = new System.Drawing.Size(125, 23);
             this.labelOutputCMtoInches.TabIndex = 19;
@@ -103,7 +103,7 @@ namespace Converter.Forms
             // buttonSubmitCMtoInches
             // 
             this.buttonSubmitCMtoInches.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitCMtoInches.Location = new System.Drawing.Point(332, 74);
+            this.buttonSubmitCMtoInches.Location = new System.Drawing.Point(332, 61);
             this.buttonSubmitCMtoInches.Name = "buttonSubmitCMtoInches";
             this.buttonSubmitCMtoInches.Size = new System.Drawing.Size(75, 23);
             this.buttonSubmitCMtoInches.TabIndex = 18;
@@ -114,7 +114,7 @@ namespace Converter.Forms
             // textBoxCMtoInches
             // 
             this.textBoxCMtoInches.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxCMtoInches.Location = new System.Drawing.Point(127, 74);
+            this.textBoxCMtoInches.Location = new System.Drawing.Point(127, 61);
             this.textBoxCMtoInches.MaxLength = 6;
             this.textBoxCMtoInches.Name = "textBoxCMtoInches";
             this.textBoxCMtoInches.PlaceholderText = "Example: 1";
@@ -125,7 +125,7 @@ namespace Converter.Forms
             // 
             this.labelCMtoInch.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelCMtoInch.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelCMtoInch.Location = new System.Drawing.Point(229, 29);
+            this.labelCMtoInch.Location = new System.Drawing.Point(229, 16);
             this.labelCMtoInch.Name = "labelCMtoInch";
             this.labelCMtoInch.Size = new System.Drawing.Size(178, 32);
             this.labelCMtoInch.TabIndex = 16;
@@ -136,7 +136,7 @@ namespace Converter.Forms
             this.labelOutputFeetToMeters.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputFeetToMeters.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputFeetToMeters.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputFeetToMeters.Location = new System.Drawing.Point(466, 338);
+            this.labelOutputFeetToMeters.Location = new System.Drawing.Point(466, 325);
             this.labelOutputFeetToMeters.Name = "labelOutputFeetToMeters";
             this.labelOutputFeetToMeters.Size = new System.Drawing.Size(125, 23);
             this.labelOutputFeetToMeters.TabIndex = 31;
@@ -145,7 +145,7 @@ namespace Converter.Forms
             // buttonSubmitFeetToMeters
             // 
             this.buttonSubmitFeetToMeters.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitFeetToMeters.Location = new System.Drawing.Point(332, 337);
+            this.buttonSubmitFeetToMeters.Location = new System.Drawing.Point(332, 324);
             this.buttonSubmitFeetToMeters.Name = "buttonSubmitFeetToMeters";
             this.buttonSubmitFeetToMeters.Size = new System.Drawing.Size(75, 23);
             this.buttonSubmitFeetToMeters.TabIndex = 30;
@@ -156,7 +156,7 @@ namespace Converter.Forms
             // textBoxFeetToMeters
             // 
             this.textBoxFeetToMeters.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxFeetToMeters.Location = new System.Drawing.Point(127, 338);
+            this.textBoxFeetToMeters.Location = new System.Drawing.Point(127, 325);
             this.textBoxFeetToMeters.MaxLength = 6;
             this.textBoxFeetToMeters.Name = "textBoxFeetToMeters";
             this.textBoxFeetToMeters.PlaceholderText = "Example: 3.28";
@@ -167,7 +167,7 @@ namespace Converter.Forms
             // 
             this.labelFeetToMeters.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelFeetToMeters.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelFeetToMeters.Location = new System.Drawing.Point(229, 289);
+            this.labelFeetToMeters.Location = new System.Drawing.Point(229, 276);
             this.labelFeetToMeters.Name = "labelFeetToMeters";
             this.labelFeetToMeters.Size = new System.Drawing.Size(178, 32);
             this.labelFeetToMeters.TabIndex = 28;
@@ -178,7 +178,7 @@ namespace Converter.Forms
             this.labelOutputMetersToFeet.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputMetersToFeet.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputMetersToFeet.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputMetersToFeet.Location = new System.Drawing.Point(466, 248);
+            this.labelOutputMetersToFeet.Location = new System.Drawing.Point(466, 235);
             this.labelOutputMetersToFeet.Name = "labelOutputMetersToFeet";
             this.labelOutputMetersToFeet.Size = new System.Drawing.Size(125, 23);
             this.labelOutputMetersToFeet.TabIndex = 27;
@@ -187,7 +187,7 @@ namespace Converter.Forms
             // buttonSubmitMetersToFeet
             // 
             this.buttonSubmitMetersToFeet.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitMetersToFeet.Location = new System.Drawing.Point(332, 247);
+            this.buttonSubmitMetersToFeet.Location = new System.Drawing.Point(332, 234);
             this.buttonSubmitMetersToFeet.Name = "buttonSubmitMetersToFeet";
             this.buttonSubmitMetersToFeet.Size = new System.Drawing.Size(75, 23);
             this.buttonSubmitMetersToFeet.TabIndex = 26;
@@ -198,7 +198,7 @@ namespace Converter.Forms
             // textBoxMetersToFeet
             // 
             this.textBoxMetersToFeet.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxMetersToFeet.Location = new System.Drawing.Point(127, 248);
+            this.textBoxMetersToFeet.Location = new System.Drawing.Point(127, 235);
             this.textBoxMetersToFeet.MaxLength = 6;
             this.textBoxMetersToFeet.Name = "textBoxMetersToFeet";
             this.textBoxMetersToFeet.PlaceholderText = "Example: 1";
@@ -209,7 +209,7 @@ namespace Converter.Forms
             // 
             this.labelMetersToFeet.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelMetersToFeet.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMetersToFeet.Location = new System.Drawing.Point(229, 203);
+            this.labelMetersToFeet.Location = new System.Drawing.Point(229, 190);
             this.labelMetersToFeet.Name = "labelMetersToFeet";
             this.labelMetersToFeet.Size = new System.Drawing.Size(178, 32);
             this.labelMetersToFeet.TabIndex = 24;
