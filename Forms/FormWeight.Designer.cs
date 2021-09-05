@@ -50,7 +50,8 @@ namespace Converter.Forms
             // labelKGtoPounds
             // 
             this.labelKGtoPounds.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelKGtoPounds.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelKGtoPounds.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.labelKGtoPounds.ForeColor = System.Drawing.Color.White;
             this.labelKGtoPounds.Location = new System.Drawing.Point(286, 16);
             this.labelKGtoPounds.Name = "labelKGtoPounds";
             this.labelKGtoPounds.Size = new System.Drawing.Size(178, 32);
@@ -60,7 +61,7 @@ namespace Converter.Forms
             // textBoxKGtoPounds
             // 
             this.textBoxKGtoPounds.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxKGtoPounds.Location = new System.Drawing.Point(127, 61);
+            this.textBoxKGtoPounds.Location = new System.Drawing.Point(183, 59);
             this.textBoxKGtoPounds.MaxLength = 6;
             this.textBoxKGtoPounds.Name = "textBoxKGtoPounds";
             this.textBoxKGtoPounds.PlaceholderText = "Example: 5.5";
@@ -72,7 +73,7 @@ namespace Converter.Forms
             this.buttonSubmitKGtoPounds.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.buttonSubmitKGtoPounds.Location = new System.Drawing.Point(332, 60);
             this.buttonSubmitKGtoPounds.Name = "buttonSubmitKGtoPounds";
-            this.buttonSubmitKGtoPounds.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitKGtoPounds.Size = new System.Drawing.Size(125, 23);
             this.buttonSubmitKGtoPounds.TabIndex = 2;
             this.buttonSubmitKGtoPounds.Text = "Convert";
             this.buttonSubmitKGtoPounds.UseVisualStyleBackColor = true;
@@ -83,7 +84,7 @@ namespace Converter.Forms
             this.labelOutputKGtoPounds.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputKGtoPounds.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputKGtoPounds.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputKGtoPounds.Location = new System.Drawing.Point(466, 61);
+            this.labelOutputKGtoPounds.Location = new System.Drawing.Point(476, 60);
             this.labelOutputKGtoPounds.Name = "labelOutputKGtoPounds";
             this.labelOutputKGtoPounds.Size = new System.Drawing.Size(125, 23);
             this.labelOutputKGtoPounds.TabIndex = 3;
