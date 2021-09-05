@@ -192,5 +192,17 @@ namespace Converter
         {
             WindowState = FormWindowState.Minimized;
         }
+
+        private void tableLayoutPanel1_CellPaint(object sender, TableLayoutCellPaintEventArgs e)
+        {
+            if ((e.Column + e.Row) % 2 == 1)
+            {
+                e.Graphics.FillRectangle(Brushes.White, e.CellBounds);
+            } 
+            else
+            {
+                e.Graphics.FillRectangle(Brushes.CornflowerBlue, e.CellBounds);
+            }
+        }
     }
 }

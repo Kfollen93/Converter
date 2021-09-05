@@ -396,7 +396,6 @@ namespace Converter
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Outset;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -430,15 +429,17 @@ namespace Converter
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(399, 197);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(399, 180);
             this.tableLayoutPanel1.TabIndex = 1;
+            this.tableLayoutPanel1.CellPaint += new System.Windows.Forms.TableLayoutCellPaintEventHandler(this.tableLayoutPanel1_CellPaint);
             // 
             // labelKilometersToMiles
             // 
             this.labelKilometersToMiles.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelKilometersToMiles.AutoSize = true;
+            this.labelKilometersToMiles.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelKilometersToMiles.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelKilometersToMiles.Location = new System.Drawing.Point(5, 180);
+            this.labelKilometersToMiles.Location = new System.Drawing.Point(3, 162);
             this.labelKilometersToMiles.Name = "labelKilometersToMiles";
             this.labelKilometersToMiles.Size = new System.Drawing.Size(143, 15);
             this.labelKilometersToMiles.TabIndex = 17;
@@ -449,8 +450,9 @@ namespace Converter
             // 
             this.labelMilesToKilometers.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelMilesToKilometers.AutoSize = true;
+            this.labelMilesToKilometers.BackColor = System.Drawing.Color.White;
             this.labelMilesToKilometers.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMilesToKilometers.Location = new System.Drawing.Point(203, 180);
+            this.labelMilesToKilometers.Location = new System.Drawing.Point(202, 162);
             this.labelMilesToKilometers.Name = "labelMilesToKilometers";
             this.labelMilesToKilometers.Size = new System.Drawing.Size(143, 15);
             this.labelMilesToKilometers.TabIndex = 16;
@@ -461,8 +463,9 @@ namespace Converter
             // 
             this.labelKilogramsToPounds.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelKilogramsToPounds.AutoSize = true;
+            this.labelKilogramsToPounds.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelKilogramsToPounds.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelKilogramsToPounds.Location = new System.Drawing.Point(5, 4);
+            this.labelKilogramsToPounds.Location = new System.Drawing.Point(3, 2);
             this.labelKilogramsToPounds.Name = "labelKilogramsToPounds";
             this.labelKilogramsToPounds.Size = new System.Drawing.Size(135, 15);
             this.labelKilogramsToPounds.TabIndex = 0;
@@ -473,8 +476,9 @@ namespace Converter
             // 
             this.labelPoundsToKilograms.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelPoundsToKilograms.AutoSize = true;
+            this.labelPoundsToKilograms.BackColor = System.Drawing.Color.White;
             this.labelPoundsToKilograms.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelPoundsToKilograms.Location = new System.Drawing.Point(203, 4);
+            this.labelPoundsToKilograms.Location = new System.Drawing.Point(202, 2);
             this.labelPoundsToKilograms.Name = "labelPoundsToKilograms";
             this.labelPoundsToKilograms.Size = new System.Drawing.Size(76, 15);
             this.labelPoundsToKilograms.TabIndex = 1;
@@ -485,8 +489,9 @@ namespace Converter
             // 
             this.labelGramsToOunces.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelGramsToOunces.AutoSize = true;
+            this.labelGramsToOunces.BackColor = System.Drawing.Color.White;
             this.labelGramsToOunces.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelGramsToOunces.Location = new System.Drawing.Point(5, 26);
+            this.labelGramsToOunces.Location = new System.Drawing.Point(3, 22);
             this.labelGramsToOunces.Name = "labelGramsToOunces";
             this.labelGramsToOunces.Size = new System.Drawing.Size(100, 15);
             this.labelGramsToOunces.TabIndex = 4;
@@ -497,8 +502,9 @@ namespace Converter
             // 
             this.labelOuncesToGrams.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelOuncesToGrams.AutoSize = true;
+            this.labelOuncesToGrams.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOuncesToGrams.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelOuncesToGrams.Location = new System.Drawing.Point(203, 26);
+            this.labelOuncesToGrams.Location = new System.Drawing.Point(202, 22);
             this.labelOuncesToGrams.Name = "labelOuncesToGrams";
             this.labelOuncesToGrams.Size = new System.Drawing.Size(106, 15);
             this.labelOuncesToGrams.TabIndex = 5;
@@ -509,8 +515,9 @@ namespace Converter
             // 
             this.label0CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label0CtoF.AutoSize = true;
+            this.label0CtoF.BackColor = System.Drawing.Color.CornflowerBlue;
             this.label0CtoF.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label0CtoF.Location = new System.Drawing.Point(5, 48);
+            this.label0CtoF.Location = new System.Drawing.Point(3, 42);
             this.label0CtoF.Name = "label0CtoF";
             this.label0CtoF.Size = new System.Drawing.Size(146, 15);
             this.label0CtoF.TabIndex = 2;
@@ -521,8 +528,9 @@ namespace Converter
             // 
             this.label100CtoF.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label100CtoF.AutoSize = true;
+            this.label100CtoF.BackColor = System.Drawing.Color.White;
             this.label100CtoF.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label100CtoF.Location = new System.Drawing.Point(203, 48);
+            this.label100CtoF.Location = new System.Drawing.Point(202, 42);
             this.label100CtoF.Name = "label100CtoF";
             this.label100CtoF.Size = new System.Drawing.Size(167, 15);
             this.label100CtoF.TabIndex = 3;
@@ -532,8 +540,9 @@ namespace Converter
             // 
             this.labelKMHtoMPH.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelKMHtoMPH.AutoSize = true;
+            this.labelKMHtoMPH.BackColor = System.Drawing.Color.White;
             this.labelKMHtoMPH.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelKMHtoMPH.Location = new System.Drawing.Point(5, 70);
+            this.labelKMHtoMPH.Location = new System.Drawing.Point(3, 62);
             this.labelKMHtoMPH.Name = "labelKMHtoMPH";
             this.labelKMHtoMPH.Size = new System.Drawing.Size(113, 15);
             this.labelKMHtoMPH.TabIndex = 6;
@@ -544,8 +553,9 @@ namespace Converter
             // 
             this.labelMPHtoKMH.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelMPHtoKMH.AutoSize = true;
+            this.labelMPHtoKMH.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelMPHtoKMH.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMPHtoKMH.Location = new System.Drawing.Point(203, 70);
+            this.labelMPHtoKMH.Location = new System.Drawing.Point(202, 62);
             this.labelMPHtoKMH.Name = "labelMPHtoKMH";
             this.labelMPHtoKMH.Size = new System.Drawing.Size(113, 15);
             this.labelMPHtoKMH.TabIndex = 7;
@@ -556,8 +566,9 @@ namespace Converter
             // 
             this.labelCMtoIN.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelCMtoIN.AutoSize = true;
+            this.labelCMtoIN.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelCMtoIN.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelCMtoIN.Location = new System.Drawing.Point(5, 92);
+            this.labelCMtoIN.Location = new System.Drawing.Point(3, 82);
             this.labelCMtoIN.Name = "labelCMtoIN";
             this.labelCMtoIN.Size = new System.Drawing.Size(85, 15);
             this.labelCMtoIN.TabIndex = 8;
@@ -568,8 +579,9 @@ namespace Converter
             // 
             this.labelINtoCM.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelINtoCM.AutoSize = true;
+            this.labelINtoCM.BackColor = System.Drawing.Color.White;
             this.labelINtoCM.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelINtoCM.Location = new System.Drawing.Point(203, 92);
+            this.labelINtoCM.Location = new System.Drawing.Point(202, 82);
             this.labelINtoCM.Name = "labelINtoCM";
             this.labelINtoCM.Size = new System.Drawing.Size(85, 15);
             this.labelINtoCM.TabIndex = 9;
@@ -580,8 +592,9 @@ namespace Converter
             // 
             this.labelMetersToFeet.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelMetersToFeet.AutoSize = true;
+            this.labelMetersToFeet.BackColor = System.Drawing.Color.White;
             this.labelMetersToFeet.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMetersToFeet.Location = new System.Drawing.Point(5, 114);
+            this.labelMetersToFeet.Location = new System.Drawing.Point(3, 102);
             this.labelMetersToFeet.Name = "labelMetersToFeet";
             this.labelMetersToFeet.Size = new System.Drawing.Size(118, 15);
             this.labelMetersToFeet.TabIndex = 10;
@@ -592,8 +605,9 @@ namespace Converter
             // 
             this.labelFeetToMeters.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelFeetToMeters.AutoSize = true;
+            this.labelFeetToMeters.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelFeetToMeters.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelFeetToMeters.Location = new System.Drawing.Point(203, 114);
+            this.labelFeetToMeters.Location = new System.Drawing.Point(202, 102);
             this.labelFeetToMeters.Name = "labelFeetToMeters";
             this.labelFeetToMeters.Size = new System.Drawing.Size(123, 15);
             this.labelFeetToMeters.TabIndex = 11;
@@ -604,8 +618,9 @@ namespace Converter
             // 
             this.labelFluidOunceToML.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelFluidOunceToML.AutoSize = true;
+            this.labelFluidOunceToML.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelFluidOunceToML.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelFluidOunceToML.Location = new System.Drawing.Point(5, 136);
+            this.labelFluidOunceToML.Location = new System.Drawing.Point(3, 122);
             this.labelFluidOunceToML.Name = "labelFluidOunceToML";
             this.labelFluidOunceToML.Size = new System.Drawing.Size(147, 15);
             this.labelFluidOunceToML.TabIndex = 12;
@@ -616,8 +631,9 @@ namespace Converter
             // 
             this.labelMLtoFluidOunce.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelMLtoFluidOunce.AutoSize = true;
+            this.labelMLtoFluidOunce.BackColor = System.Drawing.Color.White;
             this.labelMLtoFluidOunce.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMLtoFluidOunce.Location = new System.Drawing.Point(203, 136);
+            this.labelMLtoFluidOunce.Location = new System.Drawing.Point(202, 122);
             this.labelMLtoFluidOunce.Name = "labelMLtoFluidOunce";
             this.labelMLtoFluidOunce.Size = new System.Drawing.Size(145, 15);
             this.labelMLtoFluidOunce.TabIndex = 13;
@@ -628,8 +644,9 @@ namespace Converter
             // 
             this.labelLitersToGallons.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelLitersToGallons.AutoSize = true;
+            this.labelLitersToGallons.BackColor = System.Drawing.Color.White;
             this.labelLitersToGallons.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelLitersToGallons.Location = new System.Drawing.Point(5, 158);
+            this.labelLitersToGallons.Location = new System.Drawing.Point(3, 142);
             this.labelLitersToGallons.Name = "labelLitersToGallons";
             this.labelLitersToGallons.Size = new System.Drawing.Size(124, 15);
             this.labelLitersToGallons.TabIndex = 14;
@@ -640,8 +657,9 @@ namespace Converter
             // 
             this.labelGallonsToLiters.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelGallonsToLiters.AutoSize = true;
+            this.labelGallonsToLiters.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelGallonsToLiters.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelGallonsToLiters.Location = new System.Drawing.Point(203, 158);
+            this.labelGallonsToLiters.Location = new System.Drawing.Point(202, 142);
             this.labelGallonsToLiters.Name = "labelGallonsToLiters";
             this.labelGallonsToLiters.Size = new System.Drawing.Size(124, 15);
             this.labelGallonsToLiters.TabIndex = 15;
