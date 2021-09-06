@@ -6,7 +6,7 @@
 1. Ensure you have .NET 5.0 installed:
     * Windows Key + R, type `cmd` press enter, type `dotnet --version`, and press enter. You should see `5.0.xxx`.
     * Otherwise download and install .NET 5.0 from Microsoft [Windows x64 (64-bit)](https://download.visualstudio.microsoft.com/download/pr/8bc41df1-cbb4-4da6-944f-6652378e9196/1014aacedc80bbcc030dabb168d2532f/windowsdesktop-runtime-5.0.9-win-x64.exe) or [Windows x86 (32-bit)](https://download.visualstudio.microsoft.com/download/pr/d889a1ec-bf19-4915-8d8c-81adda8d558b/fffa6e33af1b4cfcafdca9aac3aef476/windowsdesktop-runtime-5.0.9-win-x86.exe).
-2. Click `Download All` from this <a href="https://drive.google.com/drive/folders/1NA645KMtv4yi9icfMvnT2P9tscoKwsGh?usp=sharing">Google Drive link</a>.
+2. Download all files from this <a href="https://drive.google.com/drive/folders/1xj5NgUtVKftw4LlG95hQQU3Crq3dqka0?usp=sharing">Google Drive link</a>.
 3. Extract the folder and double click on the `Converter.exe` file.
     * Please note, Windows will warn you that the program could be harmful (this automatically happens), <b>it is safe</b>.
 4. Click the `More Info` tab, then click `Run Anyway`, and the program will open successfully.
