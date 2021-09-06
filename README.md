@@ -1,6 +1,6 @@
 # Converter App
 
-![Converter App Gif](https://github.com/Kfollen93/Converter/blob/master/ConverterAppGif.gif)
+![Converter App Gif](https://github.com/Kfollen93/Converter/blob/master/ConverterApp.gif)
 
 ## Installation
 1. Ensure you have .NET 5.0 installed:
