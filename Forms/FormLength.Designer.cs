@@ -87,7 +87,7 @@ namespace Converter.Forms
             this.labelInchToCM.ForeColor = System.Drawing.Color.White;
             this.labelInchToCM.Location = new System.Drawing.Point(310, 102);
             this.labelInchToCM.Name = "labelInchToCM";
-            this.labelInchToCM.Size = new System.Drawing.Size(178, 32);
+            this.labelInchToCM.Size = new System.Drawing.Size(202, 32);
             this.labelInchToCM.TabIndex = 20;
             this.labelInchToCM.Text = "Inches to Centimeters";
             // 
@@ -131,7 +131,7 @@ namespace Converter.Forms
             this.labelCMtoInch.ForeColor = System.Drawing.Color.White;
             this.labelCMtoInch.Location = new System.Drawing.Point(310, 16);
             this.labelCMtoInch.Name = "labelCMtoInch";
-            this.labelCMtoInch.Size = new System.Drawing.Size(178, 32);
+            this.labelCMtoInch.Size = new System.Drawing.Size(202, 32);
             this.labelCMtoInch.TabIndex = 16;
             this.labelCMtoInch.Text = "Centimeters to Inches";
             // 
