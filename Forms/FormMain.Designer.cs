@@ -688,7 +688,7 @@ namespace Converter
             // 
             this.labelMain.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelMain.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMain.Location = new System.Drawing.Point(216, 12);
+            this.labelMain.Location = new System.Drawing.Point(247, 12);
             this.labelMain.Name = "labelMain";
             this.labelMain.Size = new System.Drawing.Size(178, 32);
             this.labelMain.TabIndex = 0;
