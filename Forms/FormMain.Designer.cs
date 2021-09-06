@@ -352,11 +352,11 @@ namespace Converter
             // labelHomeChildForm
             // 
             this.labelHomeChildForm.AutoSize = true;
-            this.labelHomeChildForm.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelHomeChildForm.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.labelHomeChildForm.ForeColor = System.Drawing.SystemColors.ControlText;
             this.labelHomeChildForm.Location = new System.Drawing.Point(44, 38);
             this.labelHomeChildForm.Name = "labelHomeChildForm";
-            this.labelHomeChildForm.Size = new System.Drawing.Size(41, 15);
+            this.labelHomeChildForm.Size = new System.Drawing.Size(40, 15);
             this.labelHomeChildForm.TabIndex = 1;
             this.labelHomeChildForm.Text = "Home";
             // 
@@ -687,7 +687,8 @@ namespace Converter
             // labelMain
             // 
             this.labelMain.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelMain.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelMain.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.labelMain.Location = new System.Drawing.Point(247, 12);
             this.labelMain.Name = "labelMain";
             this.labelMain.Size = new System.Drawing.Size(178, 32);

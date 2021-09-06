@@ -44,7 +44,7 @@ namespace Converter.Forms
             this.labelOutputFtoC.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputFtoC.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputFtoC.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputFtoC.Location = new System.Drawing.Point(466, 235);
+            this.labelOutputFtoC.Location = new System.Drawing.Point(476, 214);
             this.labelOutputFtoC.Name = "labelOutputFtoC";
             this.labelOutputFtoC.Size = new System.Drawing.Size(125, 23);
             this.labelOutputFtoC.TabIndex = 15;
@@ -53,9 +53,9 @@ namespace Converter.Forms
             // buttonSubmitFtoC
             // 
             this.buttonSubmitFtoC.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitFtoC.Location = new System.Drawing.Point(332, 234);
+            this.buttonSubmitFtoC.Location = new System.Drawing.Point(332, 214);
             this.buttonSubmitFtoC.Name = "buttonSubmitFtoC";
-            this.buttonSubmitFtoC.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitFtoC.Size = new System.Drawing.Size(125, 23);
             this.buttonSubmitFtoC.TabIndex = 14;
             this.buttonSubmitFtoC.Text = "Convert";
             this.buttonSubmitFtoC.UseVisualStyleBackColor = true;
@@ -64,7 +64,7 @@ namespace Converter.Forms
             // textBoxFtoC
             // 
             this.textBoxFtoC.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxFtoC.Location = new System.Drawing.Point(127, 235);
+            this.textBoxFtoC.Location = new System.Drawing.Point(188, 214);
             this.textBoxFtoC.MaxLength = 6;
             this.textBoxFtoC.Name = "textBoxFtoC";
             this.textBoxFtoC.PlaceholderText = "Example: 98.6";
@@ -74,8 +74,9 @@ namespace Converter.Forms
             // labelFtoC
             // 
             this.labelFtoC.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelFtoC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelFtoC.Location = new System.Drawing.Point(229, 170);
+            this.labelFtoC.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.labelFtoC.ForeColor = System.Drawing.Color.White;
+            this.labelFtoC.Location = new System.Drawing.Point(319, 170);
             this.labelFtoC.Name = "labelFtoC";
             this.labelFtoC.Size = new System.Drawing.Size(178, 32);
             this.labelFtoC.TabIndex = 12;
@@ -86,7 +87,7 @@ namespace Converter.Forms
             this.labelOutputCtoF.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputCtoF.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputCtoF.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputCtoF.Location = new System.Drawing.Point(466, 120);
+            this.labelOutputCtoF.Location = new System.Drawing.Point(476, 128);
             this.labelOutputCtoF.Name = "labelOutputCtoF";
             this.labelOutputCtoF.Size = new System.Drawing.Size(125, 23);
             this.labelOutputCtoF.TabIndex = 11;
@@ -95,9 +96,9 @@ namespace Converter.Forms
             // buttonSubmitCtoF
             // 
             this.buttonSubmitCtoF.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitCtoF.Location = new System.Drawing.Point(332, 119);
+            this.buttonSubmitCtoF.Location = new System.Drawing.Point(332, 128);
             this.buttonSubmitCtoF.Name = "buttonSubmitCtoF";
-            this.buttonSubmitCtoF.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitCtoF.Size = new System.Drawing.Size(125, 23);
             this.buttonSubmitCtoF.TabIndex = 10;
             this.buttonSubmitCtoF.Text = "Convert";
             this.buttonSubmitCtoF.UseVisualStyleBackColor = true;
@@ -106,7 +107,7 @@ namespace Converter.Forms
             // textBoxCtoF
             // 
             this.textBoxCtoF.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxCtoF.Location = new System.Drawing.Point(127, 120);
+            this.textBoxCtoF.Location = new System.Drawing.Point(188, 128);
             this.textBoxCtoF.MaxLength = 6;
             this.textBoxCtoF.Name = "textBoxCtoF";
             this.textBoxCtoF.PlaceholderText = "Example: 37";
@@ -116,8 +117,9 @@ namespace Converter.Forms
             // labelCelciusToFahrenheit
             // 
             this.labelCelciusToFahrenheit.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelCelciusToFahrenheit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelCelciusToFahrenheit.Location = new System.Drawing.Point(229, 55);
+            this.labelCelciusToFahrenheit.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.labelCelciusToFahrenheit.ForeColor = System.Drawing.Color.White;
+            this.labelCelciusToFahrenheit.Location = new System.Drawing.Point(319, 82);
             this.labelCelciusToFahrenheit.Name = "labelCelciusToFahrenheit";
             this.labelCelciusToFahrenheit.Size = new System.Drawing.Size(178, 32);
             this.labelCelciusToFahrenheit.TabIndex = 8;

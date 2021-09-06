@@ -52,7 +52,7 @@ namespace Converter.Forms
             this.labelOutputMililitersToFluidOz.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputMililitersToFluidOz.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputMililitersToFluidOz.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputMililitersToFluidOz.Location = new System.Drawing.Point(466, 152);
+            this.labelOutputMililitersToFluidOz.Location = new System.Drawing.Point(476, 151);
             this.labelOutputMililitersToFluidOz.Name = "labelOutputMililitersToFluidOz";
             this.labelOutputMililitersToFluidOz.Size = new System.Drawing.Size(125, 23);
             this.labelOutputMililitersToFluidOz.TabIndex = 23;
@@ -61,9 +61,10 @@ namespace Converter.Forms
             // buttonSubmitMililitersToFluidOz
             // 
             this.buttonSubmitMililitersToFluidOz.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.buttonSubmitMililitersToFluidOz.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonSubmitMililitersToFluidOz.Location = new System.Drawing.Point(332, 151);
             this.buttonSubmitMililitersToFluidOz.Name = "buttonSubmitMililitersToFluidOz";
-            this.buttonSubmitMililitersToFluidOz.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitMililitersToFluidOz.Size = new System.Drawing.Size(125, 23);
             this.buttonSubmitMililitersToFluidOz.TabIndex = 22;
             this.buttonSubmitMililitersToFluidOz.Text = "Convert";
             this.buttonSubmitMililitersToFluidOz.UseVisualStyleBackColor = true;
@@ -72,7 +73,7 @@ namespace Converter.Forms
             // textBoxMililitersToFluidOz
             // 
             this.textBoxMililitersToFluidOz.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxMililitersToFluidOz.Location = new System.Drawing.Point(127, 151);
+            this.textBoxMililitersToFluidOz.Location = new System.Drawing.Point(188, 151);
             this.textBoxMililitersToFluidOz.MaxLength = 6;
             this.textBoxMililitersToFluidOz.Name = "textBoxMililitersToFluidOz";
             this.textBoxMililitersToFluidOz.PlaceholderText = "Example: 29.57";
@@ -82,8 +83,9 @@ namespace Converter.Forms
             // labelMililetersToFluidOz
             // 
             this.labelMililetersToFluidOz.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelMililetersToFluidOz.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMililetersToFluidOz.Location = new System.Drawing.Point(229, 102);
+            this.labelMililetersToFluidOz.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.labelMililetersToFluidOz.ForeColor = System.Drawing.Color.White;
+            this.labelMililetersToFluidOz.Location = new System.Drawing.Point(300, 102);
             this.labelMililetersToFluidOz.Name = "labelMililetersToFluidOz";
             this.labelMililetersToFluidOz.Size = new System.Drawing.Size(219, 32);
             this.labelMililetersToFluidOz.TabIndex = 20;
@@ -94,7 +96,7 @@ namespace Converter.Forms
             this.labelOutputFluidOzToML.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputFluidOzToML.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputFluidOzToML.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputFluidOzToML.Location = new System.Drawing.Point(466, 62);
+            this.labelOutputFluidOzToML.Location = new System.Drawing.Point(476, 60);
             this.labelOutputFluidOzToML.Name = "labelOutputFluidOzToML";
             this.labelOutputFluidOzToML.Size = new System.Drawing.Size(125, 23);
             this.labelOutputFluidOzToML.TabIndex = 19;
@@ -103,9 +105,10 @@ namespace Converter.Forms
             // buttonSubmitFluidOzToML
             // 
             this.buttonSubmitFluidOzToML.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitFluidOzToML.Location = new System.Drawing.Point(332, 61);
+            this.buttonSubmitFluidOzToML.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSubmitFluidOzToML.Location = new System.Drawing.Point(332, 60);
             this.buttonSubmitFluidOzToML.Name = "buttonSubmitFluidOzToML";
-            this.buttonSubmitFluidOzToML.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitFluidOzToML.Size = new System.Drawing.Size(125, 23);
             this.buttonSubmitFluidOzToML.TabIndex = 18;
             this.buttonSubmitFluidOzToML.Text = "Convert";
             this.buttonSubmitFluidOzToML.UseVisualStyleBackColor = true;
@@ -114,7 +117,7 @@ namespace Converter.Forms
             // textBoxFluidOzToML
             // 
             this.textBoxFluidOzToML.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxFluidOzToML.Location = new System.Drawing.Point(127, 61);
+            this.textBoxFluidOzToML.Location = new System.Drawing.Point(188, 60);
             this.textBoxFluidOzToML.MaxLength = 6;
             this.textBoxFluidOzToML.Name = "textBoxFluidOzToML";
             this.textBoxFluidOzToML.PlaceholderText = "Example: 1";
@@ -124,8 +127,9 @@ namespace Converter.Forms
             // labelFluidOzToML
             // 
             this.labelFluidOzToML.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelFluidOzToML.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelFluidOzToML.Location = new System.Drawing.Point(229, 16);
+            this.labelFluidOzToML.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.labelFluidOzToML.ForeColor = System.Drawing.Color.White;
+            this.labelFluidOzToML.Location = new System.Drawing.Point(300, 16);
             this.labelFluidOzToML.Name = "labelFluidOzToML";
             this.labelFluidOzToML.Size = new System.Drawing.Size(219, 32);
             this.labelFluidOzToML.TabIndex = 16;
@@ -136,7 +140,7 @@ namespace Converter.Forms
             this.labelOutputGallonsToLiters.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputGallonsToLiters.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputGallonsToLiters.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputGallonsToLiters.Location = new System.Drawing.Point(466, 325);
+            this.labelOutputGallonsToLiters.Location = new System.Drawing.Point(476, 323);
             this.labelOutputGallonsToLiters.Name = "labelOutputGallonsToLiters";
             this.labelOutputGallonsToLiters.Size = new System.Drawing.Size(125, 23);
             this.labelOutputGallonsToLiters.TabIndex = 31;
@@ -145,9 +149,10 @@ namespace Converter.Forms
             // buttonSubmitGallonsToLiters
             // 
             this.buttonSubmitGallonsToLiters.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitGallonsToLiters.Location = new System.Drawing.Point(332, 324);
+            this.buttonSubmitGallonsToLiters.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSubmitGallonsToLiters.Location = new System.Drawing.Point(332, 323);
             this.buttonSubmitGallonsToLiters.Name = "buttonSubmitGallonsToLiters";
-            this.buttonSubmitGallonsToLiters.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitGallonsToLiters.Size = new System.Drawing.Size(125, 23);
             this.buttonSubmitGallonsToLiters.TabIndex = 30;
             this.buttonSubmitGallonsToLiters.Text = "Convert";
             this.buttonSubmitGallonsToLiters.UseVisualStyleBackColor = true;
@@ -156,7 +161,7 @@ namespace Converter.Forms
             // textBoxGallonsToLiters
             // 
             this.textBoxGallonsToLiters.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxGallonsToLiters.Location = new System.Drawing.Point(127, 325);
+            this.textBoxGallonsToLiters.Location = new System.Drawing.Point(188, 323);
             this.textBoxGallonsToLiters.MaxLength = 6;
             this.textBoxGallonsToLiters.Name = "textBoxGallonsToLiters";
             this.textBoxGallonsToLiters.PlaceholderText = "Example: 1";
@@ -166,8 +171,9 @@ namespace Converter.Forms
             // labelGallonsToLiters
             // 
             this.labelGallonsToLiters.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelGallonsToLiters.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelGallonsToLiters.Location = new System.Drawing.Point(229, 276);
+            this.labelGallonsToLiters.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.labelGallonsToLiters.ForeColor = System.Drawing.Color.White;
+            this.labelGallonsToLiters.Location = new System.Drawing.Point(324, 275);
             this.labelGallonsToLiters.Name = "labelGallonsToLiters";
             this.labelGallonsToLiters.Size = new System.Drawing.Size(178, 32);
             this.labelGallonsToLiters.TabIndex = 28;
@@ -178,7 +184,7 @@ namespace Converter.Forms
             this.labelOutputLitersToGallons.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelOutputLitersToGallons.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelOutputLitersToGallons.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOutputLitersToGallons.Location = new System.Drawing.Point(466, 235);
+            this.labelOutputLitersToGallons.Location = new System.Drawing.Point(476, 235);
             this.labelOutputLitersToGallons.Name = "labelOutputLitersToGallons";
             this.labelOutputLitersToGallons.Size = new System.Drawing.Size(125, 23);
             this.labelOutputLitersToGallons.TabIndex = 27;
@@ -187,9 +193,10 @@ namespace Converter.Forms
             // buttonSubmitLitersToGallons
             // 
             this.buttonSubmitLitersToGallons.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.buttonSubmitLitersToGallons.Location = new System.Drawing.Point(332, 234);
+            this.buttonSubmitLitersToGallons.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSubmitLitersToGallons.Location = new System.Drawing.Point(332, 235);
             this.buttonSubmitLitersToGallons.Name = "buttonSubmitLitersToGallons";
-            this.buttonSubmitLitersToGallons.Size = new System.Drawing.Size(75, 23);
+            this.buttonSubmitLitersToGallons.Size = new System.Drawing.Size(125, 23);
             this.buttonSubmitLitersToGallons.TabIndex = 26;
             this.buttonSubmitLitersToGallons.Text = "Convert";
             this.buttonSubmitLitersToGallons.UseVisualStyleBackColor = true;
@@ -198,7 +205,7 @@ namespace Converter.Forms
             // textBoxLitersToGallons
             // 
             this.textBoxLitersToGallons.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBoxLitersToGallons.Location = new System.Drawing.Point(127, 235);
+            this.textBoxLitersToGallons.Location = new System.Drawing.Point(188, 235);
             this.textBoxLitersToGallons.MaxLength = 6;
             this.textBoxLitersToGallons.Name = "textBoxLitersToGallons";
             this.textBoxLitersToGallons.PlaceholderText = "Example: 28";
@@ -208,8 +215,9 @@ namespace Converter.Forms
             // labelLitersToGallons
             // 
             this.labelLitersToGallons.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.labelLitersToGallons.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelLitersToGallons.Location = new System.Drawing.Point(229, 190);
+            this.labelLitersToGallons.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.labelLitersToGallons.ForeColor = System.Drawing.Color.White;
+            this.labelLitersToGallons.Location = new System.Drawing.Point(324, 190);
             this.labelLitersToGallons.Name = "labelLitersToGallons";
             this.labelLitersToGallons.Size = new System.Drawing.Size(178, 32);
             this.labelLitersToGallons.TabIndex = 24;
