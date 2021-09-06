@@ -689,6 +689,7 @@ namespace Converter
             this.labelMain.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelMain.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.labelMain.ForeColor = System.Drawing.Color.White;
             this.labelMain.Location = new System.Drawing.Point(247, 12);
             this.labelMain.Name = "labelMain";
             this.labelMain.Size = new System.Drawing.Size(178, 32);
