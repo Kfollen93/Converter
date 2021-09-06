@@ -106,6 +106,7 @@ namespace Converter
             // kmMilesDistanceButton
             // 
             this.kmMilesDistanceButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(108)))), ((int)(((byte)(245)))));
+            this.kmMilesDistanceButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.kmMilesDistanceButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.kmMilesDistanceButton.FlatAppearance.BorderSize = 0;
             this.kmMilesDistanceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
