@@ -427,8 +427,8 @@ namespace Converter
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.9403F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.31343F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.9403F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(435, 268);
             this.tableLayoutPanel1.TabIndex = 1;
             this.tableLayoutPanel1.CellPaint += new System.Windows.Forms.TableLayoutCellPaintEventHandler(this.tableLayoutPanel1_CellPaint);
@@ -439,7 +439,7 @@ namespace Converter
             this.labelKilometersToMiles.AutoSize = true;
             this.labelKilometersToMiles.BackColor = System.Drawing.Color.CornflowerBlue;
             this.labelKilometersToMiles.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelKilometersToMiles.Location = new System.Drawing.Point(35, 241);
+            this.labelKilometersToMiles.Location = new System.Drawing.Point(35, 242);
             this.labelKilometersToMiles.Margin = new System.Windows.Forms.Padding(35, 0, 3, 0);
             this.labelKilometersToMiles.Name = "labelKilometersToMiles";
             this.labelKilometersToMiles.Size = new System.Drawing.Size(172, 19);
@@ -453,7 +453,7 @@ namespace Converter
             this.labelMilesToKilometers.AutoSize = true;
             this.labelMilesToKilometers.BackColor = System.Drawing.Color.White;
             this.labelMilesToKilometers.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMilesToKilometers.Location = new System.Drawing.Point(252, 241);
+            this.labelMilesToKilometers.Location = new System.Drawing.Point(252, 242);
             this.labelMilesToKilometers.Margin = new System.Windows.Forms.Padding(35, 0, 3, 0);
             this.labelMilesToKilometers.Name = "labelMilesToKilometers";
             this.labelMilesToKilometers.Size = new System.Drawing.Size(172, 19);
