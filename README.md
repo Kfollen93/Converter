@@ -1,5 +1,7 @@
 # Converter App
 
+![Converter App Gif](https://github.com/Kfollen93/Converter/blob/master/ConverterAppGif.gif)
+
 ## Installation
 1. Ensure you have .NET 5.0 installed:
     * Windows Key + R, type `cmd` press enter, type `dotnet --version`, and press enter. You should see `5.0.xxx`.
